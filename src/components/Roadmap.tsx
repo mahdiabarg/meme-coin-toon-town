@@ -9,10 +9,10 @@ const Roadmap = () => {
       title: "LAUNCH 🚀",
       status: "completed",
       items: [
-        "Token Launch auf SUI",
+        "Token Launch on SUI",
         "Website & Social Media",
         "Community Building",
-        "Erste Listings"
+        "First Listings"
       ]
     },
     {
@@ -22,7 +22,7 @@ const Roadmap = () => {
       items: [
         "Major CEX Listings",
         "Influencer Partnerships",
-        "Meme Wettbewerbe",
+        "Meme Competitions",
         "Community Events"
       ]
     },
@@ -45,20 +45,20 @@ const Roadmap = () => {
         "Ivanka Metaverse",
         "DeFi Protocol",
         "Cross-Chain Bridge",
-        "Mond Mission 🌙"
+        "Moon Mission 🌙"
       ]
     }
   ];
 
   return (
-    <section id="roadmap" className="py-20 bg-gradient-to-br from-meme-purple via-meme-blue to-meme-green">
+    <section id="roadmap" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
             ROADMAP 🗺️
           </h2>
           <p className="text-xl text-white/90 font-comic max-w-3xl mx-auto">
-            Unser Weg zur Weltherrschaft... äh, zur SUI-Dominanz! 👑
+            Our path to world domination... uh, to SUI dominance! 👑
           </p>
         </div>
 
@@ -68,15 +68,15 @@ const Roadmap = () => {
               key={index}
               className={`relative overflow-hidden border-4 shadow-2xl transform hover:scale-105 transition-all duration-300 ${
                 item.status === 'completed' 
-                  ? 'bg-gradient-to-br from-meme-green to-meme-cyan border-meme-green' 
+                  ? 'bg-gradient-to-br from-green-600 to-green-800 border-green-500' 
                   : item.status === 'current'
-                  ? 'bg-gradient-to-br from-meme-gold to-meme-orange border-meme-gold animate-glow'
-                  : 'bg-gradient-to-br from-meme-purple to-meme-blue border-meme-purple'
+                  ? 'bg-gradient-to-br from-meme-gold to-orange-500 border-meme-gold animate-glow'
+                  : 'bg-gradient-to-br from-gray-700 to-black border-gray-600'
               }`}
             >
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-sm font-comic font-bold text-black">
+                  <span className="text-sm font-comic font-bold text-white">
                     {item.phase}
                   </span>
                   {item.status === 'completed' && <CheckCircle className="w-6 h-6 text-white" />}
@@ -84,7 +84,7 @@ const Roadmap = () => {
                   {item.status === 'upcoming' && <Circle className="w-6 h-6 text-white" />}
                 </div>
                 
-                <h3 className="text-2xl font-bangers mb-4 text-black">
+                <h3 className="text-2xl font-bangers mb-4 text-white">
                   {item.title}
                 </h3>
                 
@@ -108,7 +108,7 @@ const Roadmap = () => {
               
               {item.status === 'current' && (
                 <div className="absolute top-0 right-0 bg-red-500 text-white px-2 py-1 text-xs font-bold rounded-bl-lg">
-                  AKTIV
+                  ACTIVE
                 </div>
               )}
             </Card>
@@ -118,14 +118,14 @@ const Roadmap = () => {
         <div className="text-center mt-16">
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 max-w-4xl mx-auto">
             <h3 className="text-3xl font-bangers text-meme-gold mb-6">
-              🎯 UNSER ZIEL: SUI DOMINANZ! 🎯
+              🎯 OUR GOAL: SUI DOMINANCE! 🎯
             </h3>
             <p className="text-xl text-white font-comic mb-4">
               "DON'T BE LATE!" - Ivanka
             </p>
             <p className="text-lg text-white/80 font-comic">
-              Steig ein, bevor es zu spät ist! Gemeinsam machen wir $IVNK 
-              zum König... äh, zur Königin von SUI! 👑💎
+              Get in before it's too late! Together we'll make $IVNK 
+              the king... uh, queen of SUI! 👑💎
             </p>
           </div>
         </div>

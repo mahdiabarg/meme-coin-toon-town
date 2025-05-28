@@ -4,7 +4,7 @@ import { Rocket, Crown, Star } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-meme-blue via-meme-purple to-meme-gold relative overflow-hidden">
+    <section className="min-h-screen bg-gradient-to-br from-black via-gray-800 to-meme-gold relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 animate-bounce-custom">
@@ -16,6 +16,14 @@ const Hero = () => {
         <div className="absolute bottom-32 left-20 animate-bounce-custom">
           <Rocket className="w-10 h-10 text-white animate-glow" />
         </div>
+        {/* Character meme positioned on the right */}
+        <div className="absolute bottom-10 right-10 md:right-20 animate-bounce-custom">
+          <img 
+            src="/lovable-uploads/c9eb10f6-0f1b-482e-8d6a-56980b125e9c.png" 
+            alt="IVNK Character" 
+            className="w-48 md:w-64 h-auto drop-shadow-2xl"
+          />
+        </div>
       </div>
 
       <div className="container mx-auto px-4 pt-24 pb-12 flex flex-col items-center justify-center min-h-screen text-center relative z-10">
@@ -24,17 +32,17 @@ const Hero = () => {
             $IVNK
           </h1>
           <div className="text-2xl md:text-4xl font-comic text-meme-gold font-bold drop-shadow-lg">
-            DIE KÖNIGIN VON SUI! 👑
+            THE QUEEN OF SUI! 👑
           </div>
         </div>
 
         <div className="max-w-4xl mb-12">
           <p className="text-xl md:text-2xl text-white font-comic mb-6 drop-shadow-lg">
-            🚀 GEBOREN AUF SUI. NICHT GEBRÜCKT. NICHT KOPIERT. 🚀
+            🚀 BORN ON SUI. NOT BRIDGED. NOT COPIED. 🚀
           </p>
           <p className="text-lg md:text-xl text-white/90 font-comic drop-shadow-md">
-            WIR JAGEN NICHT DEM HYPE HINTERHER - WIR DESIGNEN WERT!
-            Der eleganteste SUI Token für Speed. Gebaut für JETZT.
+            WE DON'T CHASE HYPE - WE DESIGN VALUE!
+            The most elegant SUI token for speed. Built for NOW.
           </p>
         </div>
 
@@ -43,14 +51,14 @@ const Hero = () => {
             size="lg" 
             className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold text-xl px-8 py-4 rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 animate-glow"
           >
-            🔥 KAUFE $IVNK JETZT 🔥
+            🔥 BUY $IVNK NOW 🔥
           </Button>
           <Button 
             variant="outline" 
             size="lg"
-            className="bg-white/20 border-white text-white hover:bg-white hover:text-meme-blue font-bold text-xl px-8 py-4 rounded-full backdrop-blur-sm"
+            className="bg-white/20 border-white text-white hover:bg-white hover:text-black font-bold text-xl px-8 py-4 rounded-full backdrop-blur-sm"
           >
-            📈 Chart ansehen
+            📈 View Chart
           </Button>
         </div>
 
@@ -58,19 +66,19 @@ const Hero = () => {
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="text-3xl mb-2">🎯</div>
             <h3 className="font-bold text-white text-lg mb-2">100% PURE</h3>
-            <p className="text-white/80 text-sm">Keine Brücken, keine Kopien - nur reiner SUI Power!</p>
+            <p className="text-white/80 text-sm">No bridges, no copies - just pure SUI power!</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="text-3xl mb-2">⚡</div>
             <h3 className="font-bold text-white text-lg mb-2">SPEED</h3>
-            <p className="text-white/80 text-sm">Blitzschnelle Transaktionen auf dem SUI Network!</p>
+            <p className="text-white/80 text-sm">Lightning-fast transactions on the SUI Network!</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="text-3xl mb-2">👑</div>
             <h3 className="font-bold text-white text-lg mb-2">ELEGANT</h3>
-            <p className="text-white/80 text-sm">Der eleganteste Token im ganzen SUI Ökosystem!</p>
+            <p className="text-white/80 text-sm">The most elegant token in the entire SUI ecosystem!</p>
           </div>
         </div>
       </div>

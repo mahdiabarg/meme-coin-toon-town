@@ -4,16 +4,16 @@ import { Twitter, MessageCircle, ExternalLink, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-black via-meme-purple to-meme-blue py-12 border-t-4 border-meme-gold">
+    <footer className="bg-gradient-to-r from-black via-gray-800 to-meme-gold py-12 border-t-4 border-meme-gold">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="text-center md:text-left">
             <h3 className="text-3xl font-bangers text-meme-gold mb-4">$IVNK</h3>
             <p className="text-white/80 font-comic mb-4">
-              Die eleganteste Königin von SUI! 👑
+              The most elegant queen of SUI! 👑
             </p>
             <p className="text-white/60 font-comic text-sm">
-              Gebaut für Speed. Gemacht für die Community. 
+              Built for speed. Made for the community. 
               Born on SUI, not bridged! 🚀
             </p>
           </div>
@@ -22,7 +22,7 @@ const Footer = () => {
             <h4 className="text-xl font-bangers text-white mb-4">QUICK LINKS</h4>
             <div className="space-y-2">
               <a href="#about" className="block text-white/80 hover:text-meme-gold transition-colors font-comic">
-                Über uns
+                About
               </a>
               <a href="#tokenomics" className="block text-white/80 hover:text-meme-gold transition-colors font-comic">
                 Tokenomics
@@ -46,14 +46,14 @@ const Footer = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                className="bg-white/10 border-white/30 text-white hover:bg-meme-blue hover:text-white"
+                className="bg-white/10 border-white/30 text-white hover:bg-black hover:text-white"
               >
                 <MessageCircle className="w-4 h-4" />
               </Button>
               <Button 
                 variant="outline" 
                 size="sm"
-                className="bg-white/10 border-white/30 text-white hover:bg-meme-purple hover:text-white"
+                className="bg-white/10 border-white/30 text-white hover:bg-gray-800 hover:text-white"
               >
                 <ExternalLink className="w-4 h-4" />
               </Button>
@@ -64,7 +64,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-white/60 font-comic text-sm mb-4 md:mb-0">
-              © 2024 $IVNK. Alle Rechte vorbehalten. Made with{" "}
+              © 2024 $IVNK. All rights reserved. Made with{" "}
               <Heart className="w-4 h-4 inline text-red-500" /> by the Community
             </div>
             
@@ -73,7 +73,7 @@ const Footer = () => {
                 🚨 DISCLAIMER 🚨
               </div>
               <div className="text-white/60 font-comic text-xs max-w-md">
-                $IVNK ist ein Meme Coin. Investiere nur was du dir leisten kannst zu verlieren. 
+                $IVNK is a meme coin. Only invest what you can afford to lose. 
                 No financial advice! DYOR! 🚀
               </div>
             </div>

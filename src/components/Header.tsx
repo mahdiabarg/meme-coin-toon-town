@@ -10,7 +10,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/48ac94e6-daa3-4393-a9c8-bc912cc8bf3d.png" 
             alt="$IVNK Logo" 
-            className="h-10 w-auto filter drop-shadow-lg"
+            className="h-80 w-auto filter drop-shadow-lg"
           />
         </div>
         

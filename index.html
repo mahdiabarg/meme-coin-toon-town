@@ -8,10 +8,14 @@
     <meta name="description" content="The most elegant meme coin on SUI - $IVNK" />
     <meta name="author" content="IVNK Team" />
     
-    <!-- Google Fonts -->
+    <!-- Google Fonts with font-display swap for better mobile performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <meta property="og:title" content="$IVNK - Ivanka Meme Coin" />
     <meta property="og:description" content="The most elegant meme coin on SUI" />
@@ -21,6 +25,26 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ivnk_coin" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <style>
+      /* Ensure fonts load properly on iOS Safari */
+      @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap');
+      
+      /* Force font loading for iOS */
+      body {
+        font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .font-bangers {
+        font-family: 'Bangers', -apple-system, BlinkMacSystemFont, 'Segoe UI', Impact, 'Arial Black', sans-serif !important;
+      }
+      
+      .font-comic {
+        font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Comic Sans MS', cursive !important;
+      }
+    </style>
   </head>
 
   <body>

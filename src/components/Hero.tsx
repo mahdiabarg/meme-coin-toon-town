@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Rocket, Crown, Star } from "lucide-react";
+import { Rocket } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -17,12 +17,6 @@ const Hero = () => {
 
       {/* Animated background elements */}
       <div className="absolute inset-0 z-10">
-        <div className="absolute top-20 left-10 animate-bounce-custom">
-          <Star className="w-8 h-8 text-meme-gold animate-glow" />
-        </div>
-        <div className="absolute top-40 right-20 animate-wiggle">
-          <Crown className="w-12 h-12 text-yellow-300" />
-        </div>
         <div className="absolute bottom-32 left-20 animate-bounce-custom">
           <Rocket className="w-10 h-10 text-white animate-glow" />
         </div>

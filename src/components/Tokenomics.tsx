@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
@@ -112,9 +111,9 @@ const Tokenomics = () => {
           </Card>
         </div>
 
-        {/* About-pic positioned in tokenomics section */}
+        {/* About-pic positioned in tokenomics section - moved further to the right */}
         <div className="relative mb-16">
-          <div className="absolute top-0 right-8 z-20 animate-float">
+          <div className="absolute top-0 right-20 z-20 animate-float">
             <img 
               src="/lovable-uploads/b5b6e3e9-c17e-42b0-aa22-1d94931db8b4.png" 
               alt="IVNK Astronaut" 

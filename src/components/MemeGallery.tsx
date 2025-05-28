@@ -42,6 +42,16 @@ const MemeGallery = () => {
       image: "/lovable-uploads/725438b7-8c3f-4ab1-bc96-95b9755d519b.png",
       title: "DON'T BE LATE",
       description: "While others are still sleeping, we're already pumping iron! 💪"
+    },
+    {
+      image: "/lovable-uploads/afd34f47-cda3-4dbb-b848-bbada8ef8456.png",
+      title: "LUXURY RIDE",
+      description: "When you're cruising to success in style! Ivanka knows how to travel! 🚗💎"
+    },
+    {
+      image: "/lovable-uploads/e11b995f-3ceb-405b-b74d-ee74a24b3361.png",
+      title: "DANCING TO SUCCESS",
+      description: "While others watch, Ivanka dances her way to the top! 💃✨"
     }
   ];
 

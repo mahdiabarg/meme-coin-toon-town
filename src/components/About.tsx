@@ -32,8 +32,8 @@ const About = () => {
           </div>
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/bc5c120f-e9f7-4fb5-afeb-2440b4849928.png" 
-              alt="IVANKA Character" 
+              src="/lovable-uploads/b32c85e4-27aa-42bf-a335-6676353b6091.png" 
+              alt="IVANKA to the Moon" 
               className="w-full max-w-md h-auto drop-shadow-2xl rounded-2xl"
             />
           </div>
@@ -78,6 +78,13 @@ const About = () => {
                 src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" 
                 alt="IVNK Coin" 
                 className="w-32 h-32"
+              />
+            </div>
+            <div className="absolute bottom-4 left-4 opacity-30">
+              <img 
+                src="/lovable-uploads/2c01c1b2-5ae0-4223-b820-38122d04f53e.png" 
+                alt="Shocked Expression" 
+                className="w-24 h-24"
               />
             </div>
             <h3 className="text-3xl font-bangers text-meme-gold mb-6 relative z-10">

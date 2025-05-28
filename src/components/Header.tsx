@@ -5,17 +5,6 @@ import { ExternalLink, Twitter, MessageCircle } from "lucide-react";
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-black via-gray-800 to-meme-gold backdrop-blur-lg border-b-4 border-meme-gold">
-      {/* YouTube Video Background */}
-      <div className="absolute inset-0 opacity-35 overflow-hidden">
-        <iframe
-          src="https://www.youtube.com/embed/TRPN-NYCfts?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&loop=1&playlist=TRPN-NYCfts"
-          className="w-full h-full object-cover"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </div>
-      
       <div className="container mx-auto px-4 py-4 flex items-center justify-between relative z-10">
         <div className="flex items-center space-x-2">
           <img 
@@ -46,22 +35,46 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-2">
           <Button 
             variant="outline" 
             size="sm" 
             className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            onClick={() => window.open('https://x.com/Get_Ivanka_Meme', '_blank')}
           >
-            <Twitter className="w-4 h-4 mr-2" />
-            Twitter
+            <Twitter className="w-4 h-4" />
           </Button>
           <Button 
             variant="outline" 
             size="sm"
             className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            onClick={() => window.open('https://discord.gg/8b5YDW62D4', '_blank')}
           >
-            <MessageCircle className="w-4 h-4 mr-2" />
-            Telegram
+            <MessageCircle className="w-4 h-4" />
+          </Button>
+          <Button 
+            variant="outline" 
+            size="sm"
+            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            onClick={() => window.open('https://www.reddit.com/user/Get_IvankaCoin/', '_blank')}
+          >
+            <ExternalLink className="w-4 h-4" />
+          </Button>
+          <Button 
+            variant="outline" 
+            size="sm"
+            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            onClick={() => window.open('https://t.me/ivankaofficiall', '_blank')}
+          >
+            <MessageCircle className="w-4 h-4" />
+          </Button>
+          <Button 
+            variant="outline" 
+            size="sm"
+            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            onClick={() => window.open('https://chat.whatsapp.com/LawvBYPEIevKhNk3TjpTJT', '_blank')}
+          >
+            <MessageCircle className="w-4 h-4" />
           </Button>
         </div>
       </div>

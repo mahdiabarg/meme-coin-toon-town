@@ -18,12 +18,12 @@ const Hero = () => {
 
       {/* Animated background elements */}
       <div className="absolute inset-0 z-10">
-        {/* Helicopter positioned on the left - horizontally flipped and made twice as big */}
-        <div className="absolute top-1/4 left-5 animate-float">
+        {/* Helicopter positioned at top left - slightly smaller and repositioned */}
+        <div className="absolute top-16 left-5 animate-float">
           <img 
             src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
             alt="IVNK Helicopter" 
-            className="w-[48rem] md:w-[64rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
+            className="w-[40rem] md:w-[56rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
           />
         </div>
         {/* Character meme positioned on the right - made much bigger */}
@@ -60,6 +60,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold text-xl px-8 py-4 rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 animate-glow"
+            onClick={() => window.open('https://app.turbos.finance/#/trade?input=0x24f7a9147b69a824e56937b6265a7a74d3675f1e4965bb3a0bb2e63fd31ada41::ivnk::IVNK&output=0x2::sui::SUI', '_blank')}
           >
             🔥 BUY $IVNK NOW 🔥
           </Button>
@@ -67,6 +68,7 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="bg-white/20 border-white text-white hover:bg-white hover:text-black font-bold text-xl px-8 py-4 rounded-full backdrop-blur-sm"
+            onClick={() => window.open('https://birdeye.so/token/0x24f7a9147b69a824e56937b6265a7a74d3675f1e4965bb3a0bb2e63fd31ada41::ivnk::IVNK?chain=sui&tab=chart', '_blank')}
           >
             📈 View Chart
           </Button>

@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Twitter, MessageCircle } from "lucide-react";
 
 const EarlySupporterSection = () => {
   return (
@@ -10,8 +11,8 @@ const EarlySupporterSection = () => {
             EARLY SUPPORTER 🎁
           </h2>
           <p className="text-xl text-black/80 font-comic max-w-4xl mx-auto mb-8">
-            Folgen Sie uns überall, teilen und liken Sie unsere Inhalte und werden Sie Teil unserer Community! 
-            Dafür erhalten Sie das exklusive "Early Supporter" Überraschungspaket! 🎉
+            Follow us everywhere, share and like our content and become part of our community! 
+            For this you will receive the exclusive "Early Supporter" surprise package! 🎉
           </p>
         </div>
 
@@ -19,30 +20,30 @@ const EarlySupporterSection = () => {
           <div className="flex-1 space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white/20 backdrop-blur-lg rounded-xl p-6 border-4 border-white">
-                <h3 className="text-2xl font-bangers text-black mb-4">📱 FOLGEN</h3>
+                <h3 className="text-2xl font-bangers text-black mb-4">📱 FOLLOW</h3>
                 <p className="text-black font-comic">
-                  Folgen Sie uns auf allen Social Media Plattformen und bleiben Sie auf dem Laufenden!
+                  Follow us on all social media platforms and stay updated!
                 </p>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-xl p-6 border-4 border-white">
-                <h3 className="text-2xl font-bangers text-black mb-4">❤️ LIKEN</h3>
+                <h3 className="text-2xl font-bangers text-black mb-4">❤️ LIKE</h3>
                 <p className="text-black font-comic">
-                  Liken Sie unsere Posts und zeigen Sie Ihre Unterstützung für IVNK!
+                  Like our posts and show your support for IVNK!
                 </p>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-xl p-6 border-4 border-white">
-                <h3 className="text-2xl font-bangers text-black mb-4">🔄 TEILEN</h3>
+                <h3 className="text-2xl font-bangers text-black mb-4">🔄 SHARE</h3>
                 <p className="text-black font-comic">
-                  Teilen Sie unsere Inhalte und helfen Sie uns, die IVNK Community zu vergrößern!
+                  Share our content and help us grow the IVNK community!
                 </p>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-xl p-6 border-4 border-white">
-                <h3 className="text-2xl font-bangers text-black mb-4">🎁 BELOHNUNG</h3>
+                <h3 className="text-2xl font-bangers text-black mb-4">🎁 REWARD</h3>
                 <p className="text-black font-comic">
-                  Erhalten Sie das exklusive "Early Supporter" Überraschungspaket!
+                  Receive the exclusive "Early Supporter" surprise package!
                 </p>
               </div>
             </div>
@@ -53,14 +54,16 @@ const EarlySupporterSection = () => {
                 className="bg-black hover:bg-gray-800 text-meme-gold font-bold text-xl px-8 py-4 rounded-full"
                 onClick={() => window.open('https://x.com/Get_Ivanka_Meme', '_blank')}
               >
-                🐦 Follow on X
+                <Twitter className="w-5 h-5 mr-2" />
+                Follow on X
               </Button>
               <Button 
                 size="lg"
                 className="bg-black hover:bg-gray-800 text-meme-gold font-bold text-xl px-8 py-4 rounded-full"
                 onClick={() => window.open('https://discord.gg/8b5YDW62D4', '_blank')}
               >
-                💬 Join Discord
+                <MessageCircle className="w-5 h-5 mr-2" />
+                Join Discord
               </Button>
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
 
@@ -18,12 +17,12 @@ const Hero = () => {
 
       {/* Animated background elements */}
       <div className="absolute inset-0 z-10">
-        {/* Helicopter positioned at top left - slightly smaller and repositioned */}
+        {/* Helicopter positioned at top left - made smaller */}
         <div className="absolute top-16 left-5 animate-float">
           <img 
             src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
             alt="IVNK Helicopter" 
-            className="w-[40rem] md:w-[56rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
+            className="w-[30rem] md:w-[42rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
           />
         </div>
         {/* Character meme positioned on the right - made much bigger */}

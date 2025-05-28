@@ -1,16 +1,8 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 const FAQSection = () => {
-  return (
-    <section id="faq" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative">
+  return <section id="faq" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
@@ -116,27 +108,15 @@ const FAQSection = () => {
 
           <div className="text-center mt-12">
             <p className="text-meme-gold font-bangers text-2xl mb-6">Still have questions? We're here to help!</p>
-            <Button 
-              size="lg"
-              className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold text-xl px-8 py-4 rounded-full"
-              onClick={() => window.open('mailto:support@buyivanka.shop', '_blank')}
-            >
+            <Button size="lg" className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold text-xl px-8 py-4 rounded-full" onClick={() => window.open('mailto:support@buyivanka.shop', '_blank')}>
               Contact Us
             </Button>
           </div>
         </div>
 
         {/* Mond image positioned large in the center */}
-        <div className="flex justify-center mt-16">
-          <img 
-            src="/lovable-uploads/917fc9ad-85a4-4fe1-9ccb-8655c30463d8.png" 
-            alt="IVNK Mond" 
-            className="w-80 md:w-96 h-auto drop-shadow-2xl animate-float"
-          />
-        </div>
+        
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FAQSection;

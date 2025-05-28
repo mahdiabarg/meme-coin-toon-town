@@ -4,8 +4,27 @@ import { Diamond, Heart, Shield } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-gray-800 via-black to-meme-gold">
-      <div className="container mx-auto px-4">
+    <section id="about" className="py-20 bg-gradient-to-br from-gray-800 via-black to-meme-gold relative overflow-hidden">
+      {/* Decorative transparent images */}
+      <div className="absolute inset-0 opacity-20 pointer-events-none">
+        <img 
+          src="/lovable-uploads/edcfb8da-14fc-48e5-b5b8-fe1502e2082a.png" 
+          alt="Meme Characters" 
+          className="absolute top-10 right-10 w-32 h-32 object-contain"
+        />
+        <img 
+          src="/lovable-uploads/6c17b39e-691a-4413-9764-e2cdd70559fd.png" 
+          alt="Surprised Expression" 
+          className="absolute bottom-20 left-10 w-24 h-24 object-contain"
+        />
+        <img 
+          src="/lovable-uploads/3ecc504c-9a22-4ac4-82c7-027940a3a58e.png" 
+          alt="Luxury Car with Characters" 
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 object-contain opacity-10"
+        />
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
             ABOUT IVANKA 👑
@@ -78,13 +97,6 @@ const About = () => {
                 src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" 
                 alt="IVNK Coin" 
                 className="w-32 h-32"
-              />
-            </div>
-            <div className="absolute bottom-4 left-4 opacity-30">
-              <img 
-                src="/lovable-uploads/2c01c1b2-5ae0-4223-b820-38122d04f53e.png" 
-                alt="Shocked Expression" 
-                className="w-24 h-24"
               />
             </div>
             <h3 className="text-3xl font-bangers text-meme-gold mb-6 relative z-10">

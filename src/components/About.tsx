@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-6xl md:text-7xl font-bangers text-transparent bg-clip-text bg-gradient-to-r from-meme-gold via-white to-purple-300 drop-shadow-2xl mb-6">
+          <h2 className="text-6xl md:text-7xl font-bangers text-meme-gold drop-shadow-2xl mb-6">
             ABOUT IVANKA 👑
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-meme-gold to-purple-400 mx-auto mb-8"></div>

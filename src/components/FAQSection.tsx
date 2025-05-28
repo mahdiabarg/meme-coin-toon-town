@@ -1,0 +1,89 @@
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
+const FAQSection = () => {
+  return (
+    <section id="faq" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
+            FAQ ❓
+          </h2>
+          <p className="text-xl text-white/90 font-comic max-w-3xl mx-auto">
+            Everything you need to know about the Ivanka Coin ecosystem
+          </p>
+        </div>
+
+        <div className="max-w-4xl mx-auto space-y-6">
+          <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bangers text-meme-gold mb-4">What is the Ivanka Coin?</h3>
+              <p className="text-white font-comic text-lg">
+                Ivanka Coin (IVNK) is a community-driven cryptocurrency designed to combine the best of crypto culture with real-world impact. It features a unique tokenomics model that contributes to educational initiatives while maintaining a deflationary mechanism for long-term value.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bangers text-meme-gold mb-4">How does the education contribution work?</h3>
+              <p className="text-white font-comic text-lg">
+                With every transaction (buy, sell, or transfer), 7.5% of the transaction tax is automatically allocated to publicly supported educational projects. This means that simply by trading IVNK, you're contributing to classrooms, scholarships, and learning initiatives worldwide.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bangers text-meme-gold mb-4">What makes IVNK a deflationary token?</h3>
+              <p className="text-white font-comic text-lg">
+                IVNK implements a 2.5% burn mechanism on every transaction. This portion of tokens is permanently removed from circulation, gradually reducing the total supply over time. This deflationary approach aims to increase scarcity and potentially enhance value for long-term holders.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bangers text-meme-gold mb-4">What is the total supply of IVNK?</h3>
+              <p className="text-white font-comic text-lg">
+                The maximum supply of IVNK is capped at 1,000,000,000 tokens. This supply is distributed across community sale & airdrops (40%), liquidity pool (20%), education reserve (15%), marketing & development (10%), and team & advisors (15%).
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bangers text-meme-gold mb-4">How is the team allocation handled?</h3>
+              <p className="text-white font-comic text-lg">
+                The team & advisor allocation (15% of total supply) is locked with a long-term vesting schedule to ensure alignment with the project's long-term success. This approach prevents immediate selling pressure and demonstrates the team's commitment to the project's future.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bangers text-meme-gold mb-4">Where can I trade IVNK?</h3>
+              <p className="text-white font-comic text-lg">
+                IVNK is available on decentralized exchanges like Turbos Finance. As the project grows, we plan to expand to more exchanges. Always make sure you're trading the authentic IVNK token by verifying the contract address through our official channels.
+              </p>
+            </CardContent>
+          </Card>
+
+          <div className="text-center mt-12">
+            <p className="text-meme-gold font-bangers text-2xl mb-6">Still have questions? We're here to help!</p>
+            <Button 
+              size="lg"
+              className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold text-xl px-8 py-4 rounded-full"
+              onClick={() => window.open('mailto:support@buyivanka.shop', '_blank')}
+            >
+              Contact Us
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FAQSection;

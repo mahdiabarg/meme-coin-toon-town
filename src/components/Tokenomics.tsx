@@ -19,7 +19,7 @@ const Tokenomics = () => {
           <Card className="bg-white/20 backdrop-blur-lg border-4 border-white shadow-2xl">
             <CardHeader>
               <CardTitle className="text-3xl font-bangers text-black text-center">
-                TOKEN DETAILS 🪙
+                TOKEN DETAILS 💰
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -64,10 +64,13 @@ const Tokenomics = () => {
               <div className="space-y-4">
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="font-comic font-bold text-black">Community (70%)</span>
-                    <span className="font-bangers text-black">700M</span>
+                    <span className="font-comic font-bold text-black">Community Sale & Airdrops (40%)</span>
+                    <span className="font-bangers text-black">400M</span>
                   </div>
-                  <Progress value={70} className="h-4 bg-white/50" />
+                  <Progress value={40} className="h-4 bg-white/50" />
+                  <div className="text-xs text-black/70 font-comic mt-1">
+                    10% specifically for airdrops to early supporters
+                  </div>
                 </div>
                 
                 <div>
@@ -80,18 +83,29 @@ const Tokenomics = () => {
                 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="font-comic font-bold text-black">Team (5%)</span>
-                    <span className="font-bangers text-black">50M</span>
+                    <span className="font-comic font-bold text-black">Education Reserve (15%)</span>
+                    <span className="font-bangers text-black">150M</span>
                   </div>
-                  <Progress value={5} className="h-4 bg-white/50" />
+                  <Progress value={15} className="h-4 bg-white/50" />
                 </div>
                 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="font-comic font-bold text-black">Marketing (5%)</span>
-                    <span className="font-bangers text-black">50M</span>
+                    <span className="font-comic font-bold text-black">Team & Advisors (15%)</span>
+                    <span className="font-bangers text-black">150M</span>
                   </div>
-                  <Progress value={5} className="h-4 bg-white/50" />
+                  <Progress value={15} className="h-4 bg-white/50" />
+                  <div className="text-xs text-black/70 font-comic mt-1">
+                    Locked with vesting schedule
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex justify-between mb-2">
+                    <span className="font-comic font-bold text-black">Marketing & Development (10%)</span>
+                    <span className="font-bangers text-black">100M</span>
+                  </div>
+                  <Progress value={10} className="h-4 bg-white/50" />
                 </div>
               </div>
             </CardContent>
@@ -101,14 +115,25 @@ const Tokenomics = () => {
         <div className="text-center">
           <div className="bg-black/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-black max-w-4xl mx-auto">
             <h3 className="text-4xl font-bangers text-white mb-6">
-              🔥 NO TAXES! 🔥
+              📊 10% TRANSACTION TAX 📊
             </h3>
-            <p className="text-xl text-white font-comic mb-4">
-              0% Buy Tax • 0% Sell Tax
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-white/10 rounded-xl p-4">
+                <div className="text-2xl font-bangers text-meme-gold mb-2">7.5% Education</div>
+                <p className="text-white font-comic">
+                  Funding global educational initiatives and projects
+                </p>
+              </div>
+              <div className="bg-white/10 rounded-xl p-4">
+                <div className="text-2xl font-bangers text-red-400 mb-2">2.5% Token Burns</div>
+                <p className="text-white font-comic">
+                  Permanent supply reduction for deflationary mechanism
+                </p>
+              </div>
+            </div>
             <p className="text-lg text-white/80 font-comic">
-              Pure community power - no hidden fees! 
-              What you see is what you get! 💪
+              Every transaction contributes to education and reduces total supply! 
+              Making a positive impact while building value! 🎓🔥
             </p>
           </div>
         </div>

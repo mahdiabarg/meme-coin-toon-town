@@ -8,8 +8,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between relative z-10">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/c4fa2836-a501-4b7f-8e43-58baf1e4a7a8.png" 
-            alt="IVNK Logo" 
+            src="/lovable-uploads/ae702d73-d681-48e5-bf2f-a1646cf0926d.png" 
+            alt="IVANKA Logo" 
             className="h-12 w-auto filter drop-shadow-lg"
           />
         </div>

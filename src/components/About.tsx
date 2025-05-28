@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Diamond, Heart, Shield } from "lucide-react";
 
@@ -51,7 +50,7 @@ const About = () => {
           </div>
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/b32c85e4-27aa-42bf-a335-6676353b6091.png" 
+              src="/lovable-uploads/21151259-62e5-4041-a7a6-f25e57ae303b.png" 
               alt="IVANKA to the Moon" 
               className="w-full max-w-md h-auto drop-shadow-2xl rounded-2xl"
             />

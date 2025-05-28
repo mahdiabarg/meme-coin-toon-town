@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,12 +62,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				meme: {
+					gold: '#FFD700',
+					'gold-dark': '#FFA500',
+					blue: '#4A90E2',
+					'blue-dark': '#2E5BBA',
+					purple: '#8B5CF6',
+					'purple-dark': '#7C3AED',
+					green: '#10B981',
+					'green-dark': '#059669',
+					orange: '#F59E0B',
+					pink: '#EC4899',
+					cyan: '#06B6D4'
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				'comic': ['Comic Sans MS', 'cursive'],
+				'impact': ['Impact', 'Arial Black', 'sans-serif'],
+				'bangers': ['Bangers', 'cursive']
 			},
 			keyframes: {
 				'accordion-down': {
@@ -84,11 +103,32 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'bounce-custom': {
+					'0%, 100%': {
+						transform: 'translateY(0)',
+						animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)',
+						animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)'
+					}
+				},
+				'wiggle': {
+					'0%, 100%': { transform: 'rotate(-3deg)' },
+					'50%': { transform: 'rotate(3deg)' }
+				},
+				'glow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'bounce-custom': 'bounce-custom 2s infinite',
+				'wiggle': 'wiggle 1s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite alternate'
 			}
 		}
 	},

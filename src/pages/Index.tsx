@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Tokenomics from "@/components/Tokenomics";
 import Roadmap from "@/components/Roadmap";
+import MemeGallery from "@/components/MemeGallery";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,6 +15,7 @@ const Index = () => {
       <About />
       <Tokenomics />
       <Roadmap />
+      <MemeGallery />
       <Footer />
     </div>
   );

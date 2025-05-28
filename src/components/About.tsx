@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { Diamond, Heart, Shield } from "lucide-react";
 
 const About = () => {
   return (
@@ -7,43 +8,64 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
-            WHY $IVNK? 🤔
+            ABOUT IVANKA 👑
           </h2>
           <p className="text-xl text-white/90 font-comic max-w-3xl mx-auto">
-            While other chains have problems, we design solutions! 💪
+            The First Lady of Crypto
           </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 items-center">
+          <div className="text-white">
+            <h3 className="text-3xl font-bangers text-meme-gold mb-6">
+              About IVANKA
+            </h3>
+            <p className="text-lg font-comic mb-4">
+              IVANKA is not just another meme token. It's a statement. A movement. A revolution in the crypto space that combines the viral power of memes with the sophistication of high finance.
+            </p>
+            <p className="text-lg font-comic mb-4">
+              Born from the intersection of luxury and blockchain technology, IVANKA brings a touch of class to the often chaotic world of cryptocurrency, all while maintaining that playful, satirical edge that meme tokens are known for.
+            </p>
+            <p className="text-lg font-comic">
+              With a community-first approach and a keen eye for style, IVANKA aims to redefine what a meme token can be in today's digital economy.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <img 
+              src="/lovable-uploads/bc5c120f-e9f7-4fb5-afeb-2440b4849928.png" 
+              alt="IVANKA Character" 
+              className="w-full max-w-md h-auto drop-shadow-2xl rounded-2xl"
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <Card className="bg-gradient-to-br from-meme-gold to-orange-500 border-4 border-meme-gold shadow-2xl transform hover:scale-105 transition-all duration-300">
             <CardContent className="p-8 text-center">
-              <div className="text-6xl mb-4">🚀</div>
-              <h3 className="text-2xl font-bangers text-black mb-4">TO THE MOON!</h3>
+              <Diamond className="w-16 h-16 mb-4 mx-auto text-black" />
+              <h3 className="text-2xl font-bangers text-black mb-4">Luxurious Returns</h3>
               <p className="text-black font-comic">
-                Ivanka flies to the moon and takes all early supporters with her! 
-                Get in before it's too late! 🌙
+                IVANKA is designed with sophisticated tokenomics and a deflationary model to provide the most elegant path to potential gains.
               </p>
             </CardContent>
           </Card>
 
           <Card className="bg-gradient-to-br from-black to-gray-800 border-4 border-meme-gold shadow-2xl transform hover:scale-105 transition-all duration-300">
             <CardContent className="p-8 text-center">
-              <div className="text-6xl mb-4">👑</div>
-              <h3 className="text-2xl font-bangers text-white mb-4">QUEEN OF SUI</h3>
+              <Heart className="w-16 h-16 mb-4 mx-auto text-meme-gold" />
+              <h3 className="text-2xl font-bangers text-white mb-4">Exclusive Community</h3>
               <p className="text-white font-comic">
-                Other chains can only watch while we rule the SUI kingdom! 
-                Bow down! 💎
+                Join an elite group of like-minded individuals who appreciate both humor and sophistication in their crypto investments.
               </p>
             </CardContent>
           </Card>
 
           <Card className="bg-gradient-to-br from-gray-700 to-black border-4 border-meme-gold shadow-2xl transform hover:scale-105 transition-all duration-300">
             <CardContent className="p-8 text-center">
-              <div className="text-6xl mb-4">💪</div>
-              <h3 className="text-2xl font-bangers text-white mb-4">COMMUNITY POWER</h3>
+              <Shield className="w-16 h-16 mb-4 mx-auto text-white" />
+              <h3 className="text-2xl font-bangers text-white mb-4">Verified Security</h3>
               <p className="text-white font-comic">
-                By the community, for the community! 
-                Together we are unstoppable! 🔥
+                Our smart contract is audited, locked, and secured by the most prestigious blockchain security firms in the industry.
               </p>
             </CardContent>
           </Card>
@@ -51,7 +73,6 @@ const About = () => {
 
         <div className="text-center">
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 max-w-4xl mx-auto relative">
-            {/* Coin image positioned in the background */}
             <div className="absolute top-4 right-4 opacity-20">
               <img 
                 src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" 

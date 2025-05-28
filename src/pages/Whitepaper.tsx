@@ -20,6 +20,15 @@ const Whitepaper = () => {
             </p>
           </div>
 
+          {/* Large Whitepaper Image */}
+          <div className="text-center mb-12">
+            <img 
+              src="/lovable-uploads/3645449e-161a-47cc-bd53-b0d1209493d0.png" 
+              alt="IVANKA Whitepaper" 
+              className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
+            />
+          </div>
+
           <div className="max-w-4xl mx-auto space-y-8">
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
               <CardContent className="p-8">

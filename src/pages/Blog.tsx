@@ -94,25 +94,39 @@ const Blog = () => {
               </p>
             </div>
           )}
-          
-          {/* Newsletter Signup */}
-          <div className="mt-16 bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border border-meme-gold/30 text-center max-w-4xl mx-auto">
-            <h3 className="text-3xl font-bangers text-meme-gold mb-4">
-              Stay Updated with IVANKA News! 📬
-            </h3>
-            <p className="text-white/90 font-comic text-lg mb-6">
-              Get the latest IVANKA insights, market analysis, and ecosystem updates delivered directly to your inbox.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <Input
-                placeholder="Enter your email address"
-                className="bg-white/10 backdrop-blur-lg border-white/20 text-white placeholder:text-white/60"
+
+          {/* Blog Image and Newsletter Section */}
+          <div className="mt-16 flex flex-col lg:flex-row gap-8 items-start">
+            {/* Large Blog Image on the left */}
+            <div className="lg:w-1/2">
+              <img 
+                src="/lovable-uploads/892211ef-523a-435c-94ca-8d59d7fd1f5a.png" 
+                alt="IVANKA Blog News" 
+                className="w-full max-w-md mx-auto lg:mx-0 rounded-3xl shadow-2xl"
               />
-              <Button 
-                className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold whitespace-nowrap"
-              >
-                Subscribe
-              </Button>
+            </div>
+            
+            {/* Newsletter Signup on the right */}
+            <div className="lg:w-1/2">
+              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border border-meme-gold/30 text-center">
+                <h3 className="text-3xl font-bangers text-meme-gold mb-4">
+                  Stay Updated with IVANKA News! 📬
+                </h3>
+                <p className="text-white/90 font-comic text-lg mb-6">
+                  Get the latest IVANKA insights, market analysis, and ecosystem updates delivered directly to your inbox.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                  <Input
+                    placeholder="Enter your email address"
+                    className="bg-white/10 backdrop-blur-lg border-white/20 text-white placeholder:text-white/60"
+                  />
+                  <Button 
+                    className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold whitespace-nowrap"
+                  >
+                    Subscribe
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

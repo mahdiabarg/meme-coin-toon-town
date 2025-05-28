@@ -21,6 +21,15 @@ const Community = () => {
             </p>
           </div>
 
+          {/* Large Community Image */}
+          <div className="text-center mb-12">
+            <img 
+              src="/lovable-uploads/323cae2a-ee7f-4bac-b49a-2c34d3c6da02.png" 
+              alt="IVNK Community" 
+              className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
+            />
+          </div>
+
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card className="bg-gradient-to-br from-purple-600 to-purple-800 border-4 border-meme-gold shadow-2xl transform hover:scale-105 transition-all duration-300">

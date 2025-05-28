@@ -17,18 +17,20 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <Hero />
-      <About />
-      <Tokenomics />
-      <KaufSection />
-      <Roadmap />
-      <CommunitySection />
-      <HowToBuySection />
-      <FAQSection />
-      <MemeGallery />
-      <BlogSection />
-      <EarlySupporterSection />
-      <Footer />
+      <div className="pt-20"> {/* Add padding-top to account for fixed header */}
+        <Hero />
+        <About />
+        <Tokenomics />
+        <KaufSection />
+        <Roadmap />
+        <CommunitySection />
+        <HowToBuySection />
+        <FAQSection />
+        <MemeGallery />
+        <BlogSection />
+        <EarlySupporterSection />
+        <Footer />
+      </div>
     </div>
   );
 };

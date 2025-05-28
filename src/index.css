@@ -88,7 +88,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  /* Force font loading on iOS Safari and mobile devices */
+  /* Consistent font loading across all devices */
   .font-bangers {
     font-family: 'Bangers', -apple-system, BlinkMacSystemFont, 'Segoe UI', Impact, 'Arial Black', sans-serif !important;
     font-display: swap;
@@ -98,13 +98,5 @@
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
     font-display: swap;
     font-weight: 500;
-  }
-  
-  /* Mobile-specific adjustments */
-  @media (max-width: 768px) {
-    .font-comic {
-      font-weight: 600;
-      letter-spacing: 0.025em;
-    }
   }
 }

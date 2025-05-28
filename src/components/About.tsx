@@ -54,6 +54,15 @@ const About = () => {
             className="w-80 md:w-96 h-auto drop-shadow-2xl"
           />
         </div>
+
+        {/* New image under the airplane */}
+        <div className="absolute top-80 right-20 opacity-90">
+          <img 
+            src="/lovable-uploads/15f00140-cbb7-44d6-8e42-7106e7a9a739.png" 
+            alt="Token Exchange" 
+            className="w-64 md:w-80 h-auto drop-shadow-xl"
+          />
+        </div>
       </div>
     </section>
   );

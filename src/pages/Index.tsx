@@ -9,6 +9,7 @@ import CommunitySection from "@/components/CommunitySection";
 import HowToBuySection from "@/components/HowToBuySection";
 import FAQSection from "@/components/FAQSection";
 import MemeGallery from "@/components/MemeGallery";
+import BlogSection from "@/components/BlogSection";
 import EarlySupporterSection from "@/components/EarlySupporterSection";
 import Footer from "@/components/Footer";
 
@@ -25,6 +26,7 @@ const Index = () => {
       <HowToBuySection />
       <FAQSection />
       <MemeGallery />
+      <BlogSection />
       <EarlySupporterSection />
       <Footer />
     </div>

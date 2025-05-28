@@ -1,4 +1,3 @@
-
 export interface BlogPost {
   id: string;
   title: string;
@@ -17,6 +16,7 @@ export const blogPosts: BlogPost[] = [
     id: "sui-blockchain-revolution-2024",
     title: "The SUI Blockchain Revolution: Why 2024 is the Year of Next-Generation Networks",
     excerpt: "Discover how SUI blockchain is transforming the crypto landscape with unprecedented speed and scalability, making it the perfect foundation for projects like IVANKA.",
+    image: "/lovable-uploads/64e2c8d7-868f-4358-a55e-bd1332a398b7.png",
     content: `
       <h2>The Dawn of a New Blockchain Era</h2>
       <p>The cryptocurrency landscape is witnessing a paradigm shift in 2024, with SUI blockchain emerging as the frontrunner in next-generation blockchain technology. Unlike traditional blockchains that struggle with scalability issues, SUI offers a revolutionary approach that promises to reshape how we think about decentralized applications and digital assets.</p>
@@ -46,6 +46,7 @@ export const blogPosts: BlogPost[] = [
     id: "uzx-platform-ivanka-listing",
     title: "IVANKA Token Lists on UZX.com: A Strategic Partnership for Growth",
     excerpt: "Explore the significance of IVANKA's listing on UZX.com platform and what this means for token accessibility and future growth prospects.",
+    image: "/lovable-uploads/f8383028-bf32-489c-ae3b-89c28478c081.png",
     content: `
       <h2>A Milestone Achievement for IVANKA</h2>
       <p>The listing of IVANKA token on UZX.com represents a significant milestone in our journey toward mainstream adoption. This strategic partnership opens new avenues for accessibility and demonstrates the growing recognition of IVANKA's value proposition in the cryptocurrency ecosystem.</p>
@@ -78,6 +79,7 @@ export const blogPosts: BlogPost[] = [
     id: "meme-coins-serious-investment-analysis",
     title: "Beyond the Memes: A Serious Analysis of Meme Coin Investment Strategies",
     excerpt: "Dive deep into the evolving meme coin landscape and discover how projects like IVANKA are revolutionizing the sector with genuine utility and innovation.",
+    image: "/lovable-uploads/ec4689de-4375-4605-94ce-dd9a5dcee419.png",
     content: `
       <h2>The Evolution of Meme Coins</h2>
       <p>The meme coin sector has matured significantly from its early days of purely speculative tokens. Today's successful meme coins combine viral marketing appeal with genuine technological innovation and community utility, creating sustainable value propositions that extend far beyond internet culture.</p>
@@ -110,6 +112,7 @@ export const blogPosts: BlogPost[] = [
     id: "defi-summer-2024-opportunities",
     title: "DeFi Summer 2024: Identifying the Next Wave of Decentralized Finance Opportunities",
     excerpt: "Analyze the current DeFi landscape and discover how SUI-based projects like IVANKA are positioned to capitalize on the next major DeFi expansion.",
+    image: "/lovable-uploads/0e2f95b6-6bc9-418a-a98b-0b226db1d36f.png",
     content: `
       <h2>The Return of DeFi Innovation</h2>
       <p>As we navigate through 2024, the decentralized finance sector is experiencing a renaissance. New blockchain infrastructures, improved user experiences, and innovative financial products are converging to create what many analysts call "DeFi Summer 2024" – a period of renewed growth and adoption in decentralized finance.</p>
@@ -142,6 +145,7 @@ export const blogPosts: BlogPost[] = [
     id: "cryptocurrency-regulation-2024-impact",
     title: "Cryptocurrency Regulation in 2024: Navigating the Changing Landscape",
     excerpt: "Understand how evolving cryptocurrency regulations worldwide are shaping the industry and what it means for projects like IVANKA and platforms like UZX.com.",
+    image: "/lovable-uploads/506e9969-30a8-4a83-af9d-2eaff9ea0e6b.png",
     content: `
       <h2>The Regulatory Evolution</h2>
       <p>The cryptocurrency regulatory landscape in 2024 represents a crucial inflection point for the industry. Governments worldwide are moving from experimental frameworks to comprehensive legislation, creating both challenges and opportunities for cryptocurrency projects and platforms.</p>
@@ -177,6 +181,7 @@ export const blogPosts: BlogPost[] = [
     id: "blockchain-scalability-solutions-2024",
     title: "Blockchain Scalability Solutions: How SUI is Solving the Trilemma",
     excerpt: "Explore the innovative approaches to blockchain scalability and discover why SUI's unique architecture makes it the ideal platform for high-performance applications.",
+    image: "/lovable-uploads/d5114f42-ecad-4336-b5c9-61051e72d1db.png",
     content: `
       <h2>The Blockchain Trilemma Challenge</h2>
       <p>The blockchain trilemma – the challenge of achieving decentralization, security, and scalability simultaneously – has been a fundamental constraint limiting blockchain adoption. However, innovative solutions like SUI blockchain are demonstrating that this trilemma can be overcome through revolutionary architectural approaches.</p>
@@ -212,6 +217,7 @@ export const blogPosts: BlogPost[] = [
     id: "institutional-cryptocurrency-adoption-trends",
     title: "Institutional Cryptocurrency Adoption: Trends Shaping the Future of Digital Assets",
     excerpt: "Analyze the accelerating institutional adoption of cryptocurrencies and understand how this trend benefits well-positioned projects like IVANKA.",
+    image: "/lovable-uploads/f276e614-f665-474c-b1ef-4f7455e32d41.png",
     content: `
       <h2>The Institutional Revolution</h2>
       <p>Institutional adoption of cryptocurrencies has reached a tipping point in 2024, with major corporations, financial institutions, and investment funds integrating digital assets into their operations. This institutional influx is fundamentally changing the cryptocurrency landscape and creating new opportunities for high-quality projects.</p>
@@ -247,6 +253,7 @@ export const blogPosts: BlogPost[] = [
     id: "future-of-digital-assets-2025-beyond",
     title: "The Future of Digital Assets: Predictions for 2025 and Beyond",
     excerpt: "Look ahead to the future of digital assets and discover how projects like IVANKA are positioning themselves for the next phase of cryptocurrency evolution.",
+    image: "/lovable-uploads/175fd2e8-fdef-4772-8294-51cc18e803d0.png",
     content: `
       <h2>Digital Assets in the Next Decade</h2>
       <p>As we look toward 2025 and beyond, the digital asset landscape is poised for transformative changes that will reshape how we interact with money, ownership, and value exchange. Projects built on next-generation infrastructure like SUI blockchain are uniquely positioned to lead this evolution.</p>

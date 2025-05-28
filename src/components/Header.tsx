@@ -1,26 +1,46 @@
-
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Twitter, MessageCircle } from "lucide-react";
 
 const Header = () => {
+  const handleNavClick = (sectionId: string) => {
+    // If we're not on the homepage, navigate there first
+    if (window.location.pathname !== '/') {
+      window.location.href = `/#${sectionId}`;
+    } else {
+      // If we're already on homepage, scroll to section
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-black via-gray-800 to-meme-gold backdrop-blur-lg border-b-4 border-meme-gold">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between relative z-10">
         <div className="flex items-center space-x-2">
-          <img 
-            src="/lovable-uploads/ae702d73-d681-48e5-bf2f-a1646cf0926d.png" 
-            alt="IVANKA Logo" 
-            className="h-12 w-auto filter drop-shadow-lg"
-          />
+          <a href="/" className="flex items-center space-x-2">
+            <img 
+              src="/lovable-uploads/ae702d73-d681-48e5-bf2f-a1646cf0926d.png" 
+              alt="IVANKA Logo" 
+              className="h-12 w-auto filter drop-shadow-lg hover:scale-105 transition-transform duration-300"
+            />
+          </a>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#about" className="text-white font-bold hover:text-meme-gold transition-colors">
+          <button 
+            onClick={() => handleNavClick('about')}
+            className="text-white font-bold hover:text-meme-gold transition-colors"
+          >
             About
-          </a>
-          <a href="#tokenomics" className="text-white font-bold hover:text-meme-gold transition-colors">
+          </button>
+          <button 
+            onClick={() => handleNavClick('tokenomics')}
+            className="text-white font-bold hover:text-meme-gold transition-colors"
+          >
             Tokenomics
-          </a>
+          </button>
           <a href="/whitepaper" className="text-white font-bold hover:text-meme-gold transition-colors">
             Whitepaper
           </a>

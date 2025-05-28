@@ -15,7 +15,7 @@ const MemeGallery = () => {
     },
     {
       image: "/lovable-uploads/0d68f349-31c0-45bb-92b8-0a8604ebd5a3.png",
-      title: "THE BIG TRUMP DINNER",
+      title: "THE BIG DINNER",
       description: "Already did. You're late. - The classiest response to FOMO! 💅"
     },
     {
@@ -46,7 +46,7 @@ const MemeGallery = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold">
+    <section className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
@@ -68,7 +68,7 @@ const MemeGallery = () => {
                   <img 
                     src={meme.image} 
                     alt={meme.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-4">
@@ -93,6 +93,15 @@ const MemeGallery = () => {
               Got a classy meme idea? Share it with our community and become part of the IVANKA legend!
             </p>
           </div>
+        </div>
+
+        {/* Animated Memecoins Image */}
+        <div className="absolute top-20 right-10 animate-bounce-custom">
+          <img 
+            src="/lovable-uploads/789b0c37-88a8-4e20-98ae-bd8f4caf622a.png" 
+            alt="Memecoins" 
+            className="w-32 h-32 drop-shadow-2xl animate-pulse"
+          />
         </div>
       </div>
     </section>

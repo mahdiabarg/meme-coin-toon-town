@@ -1,10 +1,7 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-
 const Tokenomics = () => {
-  return (
-    <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative">
+  return <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-black drop-shadow-2xl mb-6">
@@ -25,11 +22,7 @@ const Tokenomics = () => {
             <CardContent className="space-y-6">
               <div className="text-center">
                 <div className="flex items-center justify-center mb-4">
-                  <img 
-                    src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" 
-                    alt="IVNK Coin" 
-                    className="w-16 h-16 mr-3"
-                  />
+                  <img src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" alt="IVNK Coin" className="w-16 h-16 mr-3 object-cover" />
                   <div className="text-4xl font-bangers text-black">$IVNK</div>
                 </div>
                 <div className="text-lg font-comic text-black">The most elegant SUI token</div>
@@ -114,11 +107,7 @@ const Tokenomics = () => {
 
         {/* Rakete positioned on the right side */}
         <div className="absolute top-20 right-10 animate-float">
-          <img 
-            src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" 
-            alt="IVNK Rakete" 
-            className="w-80 md:w-96 h-auto drop-shadow-2xl"
-          />
+          <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
         </div>
 
         <div className="text-center">
@@ -147,8 +136,6 @@ const Tokenomics = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Tokenomics;

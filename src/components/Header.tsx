@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Twitter, MessageCircle } from "lucide-react";
 
@@ -12,9 +11,6 @@ const Header = () => {
             alt="$IVNK Logo" 
             className="h-10 w-auto filter drop-shadow-lg"
           />
-          <div className="text-3xl font-bangers text-white drop-shadow-lg">
-            $IVNK
-          </div>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">

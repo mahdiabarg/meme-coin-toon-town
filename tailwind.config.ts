@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -82,7 +83,7 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				'comic': ['"Comic Neue"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', '"Comic Sans MS"', 'cursive'],
+				'comic': ['Inter', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
 				'impact': ['Impact', '"Arial Black"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
 				'bangers': ['Bangers', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Impact', '"Arial Black"', 'sans-serif']
 			},

@@ -48,14 +48,6 @@ const About = () => {
                 ✨ PURE SUI ✨
               </div>
             </div>
-            {/* PepeIvanka positioned near About section */}
-            <div className="absolute -bottom-10 -left-16 animate-wiggle">
-              <img 
-                src="/lovable-uploads/2da69b5c-4c91-4efc-b312-1eaf35be42f6.png" 
-                alt="Pepe Ivanka" 
-                className="w-24 h-24 drop-shadow-2xl"
-              />
-            </div>
           </div>
         </div>
 

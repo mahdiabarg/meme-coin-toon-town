@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket, Crown, Star } from "lucide-react";
 
@@ -27,20 +26,20 @@ const Hero = () => {
         <div className="absolute bottom-32 left-20 animate-bounce-custom">
           <Rocket className="w-10 h-10 text-white animate-glow" />
         </div>
-        {/* Helicopter positioned on the left */}
+        {/* Helicopter positioned on the left - made much bigger */}
         <div className="absolute top-1/3 left-10 animate-float">
           <img 
             src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
             alt="IVNK Helicopter" 
-            className="w-32 md:w-40 h-auto drop-shadow-2xl"
+            className="w-64 md:w-80 h-auto drop-shadow-2xl"
           />
         </div>
-        {/* Character meme positioned on the right */}
+        {/* Character meme positioned on the right - made much bigger */}
         <div className="absolute bottom-10 right-10 md:right-20 animate-bounce-custom">
           <img 
             src="/lovable-uploads/c9eb10f6-0f1b-482e-8d6a-56980b125e9c.png" 
             alt="IVNK Character" 
-            className="w-48 md:w-64 h-auto drop-shadow-2xl"
+            className="w-72 md:w-96 h-auto drop-shadow-2xl"
           />
         </div>
       </div>

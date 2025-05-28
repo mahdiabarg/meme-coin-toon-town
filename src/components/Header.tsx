@@ -7,6 +7,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-meme-blue via-meme-purple to-meme-gold backdrop-blur-lg border-b-4 border-meme-gold">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
+          <img 
+            src="/lovable-uploads/aa890283-914d-49cb-8376-54e086425bfd.png" 
+            alt="$IVNK Logo" 
+            className="h-10 w-auto filter drop-shadow-lg"
+          />
           <div className="text-3xl font-bangers text-white drop-shadow-lg">
             $IVNK
           </div>

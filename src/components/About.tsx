@@ -40,7 +40,7 @@ const About = () => {
           <div className="flex justify-center lg:justify-end relative">
             <div className="relative">
               <img 
-                src="/lovable-uploads/ae702d73-d681-48e5-bf2f-a1646cf0926d.png" 
+                src="/lovable-uploads/baedc9d1-aed9-4874-805a-825b96e34848.png" 
                 alt="About IVANKA" 
                 className="rounded-3xl shadow-2xl max-w-md w-full animate-float"
               />
@@ -59,12 +59,12 @@ const About = () => {
           </div>
         </div>
 
-        {/* Airplane positioned in the background */}
+        {/* Airplane positioned in the background - made much bigger */}
         <div className="absolute top-20 right-10 animate-float opacity-80">
           <img 
             src="/lovable-uploads/04e56ecb-5583-42ad-b2e8-799e51915088.png" 
             alt="IVNK Airplane" 
-            className="w-40 md:w-48 h-auto drop-shadow-2xl"
+            className="w-80 md:w-96 h-auto drop-shadow-2xl"
           />
         </div>
       </div>

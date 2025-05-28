@@ -27,6 +27,14 @@ const Hero = () => {
         <div className="absolute bottom-32 left-20 animate-bounce-custom">
           <Rocket className="w-10 h-10 text-white animate-glow" />
         </div>
+        {/* Helicopter positioned on the left */}
+        <div className="absolute top-1/3 left-10 animate-float">
+          <img 
+            src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
+            alt="IVNK Helicopter" 
+            className="w-32 md:w-40 h-auto drop-shadow-2xl"
+          />
+        </div>
         {/* Character meme positioned on the right */}
         <div className="absolute bottom-10 right-10 md:right-20 animate-bounce-custom">
           <img 

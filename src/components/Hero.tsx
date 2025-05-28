@@ -26,12 +26,12 @@ const Hero = () => {
         <div className="absolute bottom-32 left-20 animate-bounce-custom">
           <Rocket className="w-10 h-10 text-white animate-glow" />
         </div>
-        {/* Helicopter positioned on the left - made much bigger */}
-        <div className="absolute top-1/3 left-10 animate-float">
+        {/* Helicopter positioned on the left - horizontally flipped and made 2.5x bigger */}
+        <div className="absolute top-1/4 left-5 animate-float">
           <img 
             src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
             alt="IVNK Helicopter" 
-            className="w-64 md:w-80 h-auto drop-shadow-2xl"
+            className="w-96 md:w-[32rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
           />
         </div>
         {/* Character meme positioned on the right - made much bigger */}

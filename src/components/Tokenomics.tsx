@@ -4,7 +4,7 @@ import { Progress } from "@/components/ui/progress";
 
 const Tokenomics = () => {
   return (
-    <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black">
+    <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-black drop-shadow-2xl mb-6">
@@ -110,6 +110,17 @@ const Tokenomics = () => {
               </div>
             </CardContent>
           </Card>
+        </div>
+
+        {/* About-pic positioned in tokenomics section */}
+        <div className="relative mb-16">
+          <div className="absolute top-0 right-8 z-20 animate-float">
+            <img 
+              src="/lovable-uploads/b5b6e3e9-c17e-42b0-aa22-1d94931db8b4.png" 
+              alt="IVNK Astronaut" 
+              className="w-48 md:w-64 h-auto drop-shadow-2xl"
+            />
+          </div>
         </div>
 
         <div className="text-center">

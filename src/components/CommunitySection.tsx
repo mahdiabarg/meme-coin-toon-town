@@ -1,11 +1,10 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Users, FileText, ExternalLink } from "lucide-react";
 
 const CommunitySection = () => {
   return (
-    <section id="community" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold">
+    <section id="community" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
@@ -120,6 +119,15 @@ const CommunitySection = () => {
             </CardContent>
           </Card>
         </div>
+      </div>
+
+      {/* PepeIvanka positioned at bottom left of community section */}
+      <div className="absolute bottom-8 left-8 animate-wiggle z-20">
+        <img 
+          src="/lovable-uploads/2da69b5c-4c91-4efc-b312-1eaf35be42f6.png" 
+          alt="Pepe Ivanka" 
+          className="w-32 h-32 drop-shadow-2xl"
+        />
       </div>
     </section>
   );

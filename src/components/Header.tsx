@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Twitter, MessageCircle } from "lucide-react";
 
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/aa890283-914d-49cb-8376-54e086425bfd.png" 
+            src="/lovable-uploads/48ac94e6-daa3-4393-a9c8-bc912cc8bf3d.png" 
             alt="$IVNK Logo" 
             className="h-10 w-auto filter drop-shadow-lg"
           />

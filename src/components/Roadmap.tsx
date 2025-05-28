@@ -51,7 +51,7 @@ const Roadmap = () => {
   ];
 
   return (
-    <section id="roadmap" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold">
+    <section id="roadmap" className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
@@ -113,6 +113,15 @@ const Roadmap = () => {
               )}
             </Card>
           ))}
+        </div>
+
+        {/* Roadmap image positioned bottom left */}
+        <div className="absolute bottom-10 left-10 animate-float">
+          <img 
+            src="/lovable-uploads/da3cb322-e342-4d96-90ae-498ca8109e9a.png" 
+            alt="IVNK Roadmap" 
+            className="w-64 md:w-80 h-auto drop-shadow-2xl"
+          />
         </div>
 
         <div className="text-center mt-16">

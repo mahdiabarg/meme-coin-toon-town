@@ -1,11 +1,20 @@
 
 import { Button } from "@/components/ui/button";
-import { Twitter, MessageCircle, ExternalLink, Heart } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-black via-gray-800 to-meme-gold py-12 border-t-4 border-meme-gold">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gradient-to-r from-black via-gray-800 to-meme-gold py-12 border-t-4 border-meme-gold relative">
+      {/* Wanne image positioned at the bottom */}
+      <div className="absolute bottom-0 right-10 z-10">
+        <img 
+          src="/lovable-uploads/aa192f5b-ec47-4263-bda9-02cfc4c2542c.png" 
+          alt="IVNK Wanne" 
+          className="w-64 md:w-80 h-auto"
+        />
+      </div>
+
+      <div className="container mx-auto px-4 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bangers text-meme-gold mb-4">About</h3>

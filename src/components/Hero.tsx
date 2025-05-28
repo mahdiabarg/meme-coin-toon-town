@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
 
@@ -17,9 +18,6 @@ const Hero = () => {
 
       {/* Animated background elements */}
       <div className="absolute inset-0 z-10">
-        <div className="absolute bottom-32 left-20 animate-bounce-custom">
-          <Rocket className="w-10 h-10 text-white animate-glow" />
-        </div>
         {/* Helicopter positioned on the left - horizontally flipped and made 2.5x bigger */}
         <div className="absolute top-1/4 left-5 animate-float">
           <img 

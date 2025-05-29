@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="absolute bottom-0 right-10 z-10">
         <img 
           src="/lovable-uploads/aa192f5b-ec47-4263-bda9-02cfc4c2542c.png" 
-          alt="IVNK Wanne" 
+          alt="IVNK Bathtub" 
           className="w-64 md:w-80 h-auto"
         />
       </div>

@@ -107,8 +107,8 @@ const Tokenomics = () => {
           </Card>
         </div>
 
-        {/* Rakete with dramatic flight animation - positioned in front */}
-        <div className="absolute bottom-10 right-10 animate-rocket-flight z-50">
+        {/* Rakete with dramatic flight animation - positioned in front with highest z-index */}
+        <div className="absolute bottom-10 right-10 animate-rocket-flight z-[9999]">
           <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
         </div>
 

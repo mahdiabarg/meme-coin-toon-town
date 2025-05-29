@@ -1,8 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-gradient-to-br from-black via-purple-900 to-purple-600 relative overflow-hidden">
+  return <section id="about" className="py-20 bg-gradient-to-br from-black via-purple-900 to-purple-600 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-32 h-32 bg-meme-gold rounded-full blur-xl"></div>
@@ -12,7 +10,7 @@ const About = () => {
 
       {/* Rakete positioned above the section */}
       <div className="absolute -top-20 right-10 z-20 animate-rocket-flight">
-        <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
+        
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -103,20 +101,12 @@ const About = () => {
             <div className="relative">
               {/* Airplane positioned in the center */}
               <div className="mb-8 flex justify-center">
-                <img 
-                  src="/lovable-uploads/04e56ecb-5583-42ad-b2e8-799e51915088.png" 
-                  alt="IVNK Airplane" 
-                  className="w-80 md:w-96 h-auto drop-shadow-2xl animate-float"
-                />
+                <img src="/lovable-uploads/04e56ecb-5583-42ad-b2e8-799e51915088.png" alt="IVNK Airplane" className="w-80 md:w-96 h-auto drop-shadow-2xl animate-float" />
               </div>
               
               {/* Tutorial4 image positioned below the airplane */}
               <div className="flex justify-center">
-                <img 
-                  src="/lovable-uploads/15f00140-cbb7-44d6-8e42-7106e7a9a739.png" 
-                  alt="Tutorial 4" 
-                  className="w-64 md:w-80 h-auto drop-shadow-xl"
-                />
+                <img src="/lovable-uploads/15f00140-cbb7-44d6-8e42-7106e7a9a739.png" alt="Tutorial 4" className="w-64 md:w-80 h-auto drop-shadow-xl" />
               </div>
               
               {/* Decorative elements */}
@@ -130,8 +120,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

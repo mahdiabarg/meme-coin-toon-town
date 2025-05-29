@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, User, ArrowRight } from "lucide-react";
@@ -34,7 +35,7 @@ const BlogSection = () => {
                     <img 
                       src={post.image} 
                       alt={post.title}
-                      className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-auto max-h-64 object-contain group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute top-4 left-4">
                       <span className="bg-meme-gold/90 text-black px-3 py-1 rounded-full text-sm font-bold">

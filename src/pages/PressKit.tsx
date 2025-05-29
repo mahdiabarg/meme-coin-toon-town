@@ -182,6 +182,86 @@ const PressKit = () => {
             </Card>
           </section>
 
+          {/* Next Steps and Implementation */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Nächste Schritte und Umsetzung
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/69fc9644-b89c-434f-b824-5d991012d5a5.png" 
+                  alt="Nächste Schritte und Umsetzung" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Detailed Roadmap and Financing */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Detaillierte Roadmap und Finanzierung
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/1d2bc2d8-ed52-4b04-bc46-064f26eddc5e.png" 
+                  alt="Detaillierte Roadmap und Finanzierung" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* IVANKA NFT Collection Financing - Part 1 */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              IVANKA NFT Collection Finanzierung
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/1da2777e-c1d5-405b-9702-9dfba03e17b8.png" 
+                  alt="IVANKA NFT Collection Finanzierung" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* IVANKA NFT Collection Financing - Part 2 */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              IVANKA NFT Collection Details
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/c0541736-f489-4cc4-ac02-ec1f146ea234.png" 
+                  alt="IVANKA NFT Collection Details" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Contact and Further Information */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Kontakt und weitere Informationen
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/0114280a-0953-422b-91ad-073aeeda35ae.png" 
+                  alt="Kontakt und weitere Informationen" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
           {/* Brand Voice */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8">Brand Voice & Messaging</h2>

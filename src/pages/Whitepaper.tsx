@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -152,15 +151,6 @@ const Whitepaper = () => {
                 </p>
               </CardContent>
             </Card>
-
-            <div className="text-center mt-12">
-              <Button 
-                size="lg" 
-                className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold text-xl px-8 py-4 rounded-full"
-              >
-                Download Whitepaper PDF
-              </Button>
-            </div>
 
             <div className="text-center text-white/80 font-comic text-sm mt-8">
               <p>Disclaimer: $IVNK is a meme token with no intrinsic value or financial return expectation. This whitepaper is for information purposes only and does not constitute financial advice or a prospectus.</p>

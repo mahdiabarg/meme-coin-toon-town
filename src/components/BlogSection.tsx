@@ -1,12 +1,23 @@
 
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 import { Clock, User, ArrowRight } from "lucide-react";
 import { blogPosts } from "@/data/blogPosts";
+import { useState } from "react";
 
 const BlogSection = () => {
   const featuredPosts = blogPosts.slice(0, 4);
+  const [loadedImages, setLoadedImages] = useState<Set<string>>(new Set());
+  const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
+
+  const handleImageLoad = (postId: string) => {
+    setLoadedImages(prev => new Set([...prev, postId]));
+  };
+
+  const handleImageError = (postId: string) => {
+    setFailedImages(prev => new Set([...prev, postId]));
+  };
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-900 via-black to-purple-900 relative overflow-hidden">
@@ -33,11 +44,37 @@ const BlogSection = () => {
               <CardContent className="p-0">
                 {post.image && (
                   <div className="relative overflow-hidden rounded-t-lg">
-                    <img 
-                      src={post.image} 
-                      alt={post.title}
-                      className="w-full h-auto max-h-64 object-contain group-hover:scale-110 transition-transform duration-300"
-                    />
+                    {/* Image Skeleton/Loading State */}
+                    {!loadedImages.has(post.id) && !failedImages.has(post.id) && (
+                      <Skeleton className="w-full h-48 bg-white/20" />
+                    )}
+                    
+                    {/* Actual Image */}
+                    {!failedImages.has(post.id) && (
+                      <img 
+                        src={post.image} 
+                        alt={post.title}
+                        loading={index < 2 ? "eager" : "lazy"}
+                        width="400"
+                        height="192"
+                        className={`w-full h-48 object-cover group-hover:scale-110 transition-all duration-300 ${
+                          loadedImages.has(post.id) ? 'opacity-100' : 'opacity-0 absolute inset-0'
+                        }`}
+                        onLoad={() => handleImageLoad(post.id)}
+                        onError={() => handleImageError(post.id)}
+                        style={{
+                          aspectRatio: '400/192'
+                        }}
+                      />
+                    )}
+                    
+                    {/* Fallback for failed images */}
+                    {failedImages.has(post.id) && (
+                      <div className="w-full h-48 bg-gradient-to-br from-meme-gold/20 to-purple-600/20 flex items-center justify-center">
+                        <span className="text-white/60 text-4xl">📰</span>
+                      </div>
+                    )}
+                    
                     <div className="absolute top-4 left-4">
                       <span className="bg-meme-gold/90 text-black px-3 py-1 rounded-full text-sm font-bold">
                         {post.category}
@@ -97,4 +134,3 @@ const BlogSection = () => {
 };
 
 export default BlogSection;
-

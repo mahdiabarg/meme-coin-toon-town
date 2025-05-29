@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -134,6 +133,28 @@ export default {
 				'zoom-in-out': {
 					'0%, 100%': { transform: 'scale(1)' },
 					'50%': { transform: 'scale(1.1)' }
+				},
+				'rocket-flight': {
+					'0%': { 
+						transform: 'translateY(0px) translateX(0px) rotate(0deg)',
+						animationTimingFunction: 'ease-out'
+					},
+					'25%': { 
+						transform: 'translateY(-400px) translateX(-50px) rotate(10deg)',
+						animationTimingFunction: 'ease-in-out'
+					},
+					'50%': { 
+						transform: 'translateY(-800px) translateX(0px) rotate(-5deg)',
+						animationTimingFunction: 'ease-in-out'
+					},
+					'75%': { 
+						transform: 'translateY(-400px) translateX(50px) rotate(5deg)',
+						animationTimingFunction: 'ease-in-out'
+					},
+					'100%': { 
+						transform: 'translateY(0px) translateX(0px) rotate(0deg)',
+						animationTimingFunction: 'ease-in'
+					}
 				}
 			},
 			animation: {
@@ -144,7 +165,8 @@ export default {
 				'glow': 'glow 2s ease-in-out infinite alternate',
 				'float': 'float 6s ease-in-out infinite',
 				'spin-slow': 'spin-slow 8s linear infinite',
-				'zoom-in-out': 'zoom-in-out 3s ease-in-out infinite'
+				'zoom-in-out': 'zoom-in-out 3s ease-in-out infinite',
+				'rocket-flight': 'rocket-flight 10s ease-in-out infinite'
 			}
 		}
 	},

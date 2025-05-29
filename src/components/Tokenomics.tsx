@@ -1,7 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+
 const Tokenomics = () => {
-  return <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative">
+  return (
+    <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-black drop-shadow-2xl mb-6">
@@ -105,8 +107,8 @@ const Tokenomics = () => {
           </Card>
         </div>
 
-        {/* Rakete positioned at bottom right */}
-        <div className="absolute bottom-10 right-10 animate-float">
+        {/* Rakete with dramatic flight animation */}
+        <div className="absolute bottom-10 right-10 animate-rocket-flight">
           <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
         </div>
 
@@ -114,6 +116,8 @@ const Tokenomics = () => {
           
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Tokenomics;

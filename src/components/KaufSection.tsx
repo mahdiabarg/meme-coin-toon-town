@@ -18,7 +18,7 @@ const KaufSection = () => {
           <img 
             src="/lovable-uploads/bc541530-7f0b-4329-b2ca-307375ae1b34.png" 
             alt="IVNK Buy" 
-            className="w-72 md:w-96 h-auto drop-shadow-2xl"
+            className="w-72 md:w-96 h-auto drop-shadow-2xl animate-slide-in-from-right"
           />
         </div>
 

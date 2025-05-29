@@ -212,6 +212,16 @@ export default {
 						left: '0',
 						zIndex: '50'
 					}
+				},
+				'slide-in-from-right': {
+					'0%': {
+						transform: 'translateX(100%)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'translateX(0)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
@@ -226,7 +236,8 @@ export default {
 				'rocket-flight': 'rocket-flight 10s ease-in-out infinite',
 				'ivanka-entrance': 'ivanka-entrance 4s ease-out forwards',
 				'ivanka-pause': 'ivanka-pause 1s linear infinite',
-				'ivanka-exit': 'ivanka-exit 2s ease-in forwards'
+				'ivanka-exit': 'ivanka-exit 2s ease-in forwards',
+				'slide-in-from-right': 'slide-in-from-right 1.5s ease-out forwards'
 			}
 		}
 	},

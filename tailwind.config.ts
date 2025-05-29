@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -155,6 +156,47 @@ export default {
 						transform: 'translateY(0px) translateX(0px) rotate(0deg)',
 						animationTimingFunction: 'ease-in'
 					}
+				},
+				'ivanka-entrance-exit': {
+					'0%': {
+						transform: 'translateX(120vw) translateY(0) scale(1) rotate(0deg)',
+						opacity: '0',
+						animationTimingFunction: 'ease-out'
+					},
+					'5%': {
+						opacity: '1',
+						animationTimingFunction: 'ease-out'
+					},
+					'20%': {
+						transform: 'translateX(0) translateY(0) scale(1) rotate(0deg)',
+						opacity: '1',
+						animationTimingFunction: 'ease-out'
+					},
+					'25%': {
+						transform: 'translateX(0) translateY(0) scale(1.05) rotate(0deg)',
+						opacity: '1',
+						animationTimingFunction: 'linear'
+					},
+					'65%': {
+						transform: 'translateX(0) translateY(0) scale(1.05) rotate(0deg)',
+						opacity: '1',
+						animationTimingFunction: 'linear'
+					},
+					'70%': {
+						transform: 'translateX(0) translateY(0) scale(1) rotate(0deg)',
+						opacity: '1',
+						animationTimingFunction: 'ease-in'
+					},
+					'85%': {
+						transform: 'translateX(-30vw) translateY(-20vh) scale(0.9) rotate(-10deg)',
+						opacity: '0.8',
+						animationTimingFunction: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+					},
+					'100%': {
+						transform: 'translateX(-120vw) translateY(-60vh) scale(0.3) rotate(-25deg)',
+						opacity: '0',
+						animationTimingFunction: 'cubic-bezier(0.55, 0.085, 0.68, 0.53)'
+					}
 				}
 			},
 			animation: {
@@ -166,7 +208,8 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 				'spin-slow': 'spin-slow 8s linear infinite',
 				'zoom-in-out': 'zoom-in-out 3s ease-in-out infinite',
-				'rocket-flight': 'rocket-flight 10s ease-in-out infinite'
+				'rocket-flight': 'rocket-flight 10s ease-in-out infinite',
+				'ivanka-entrance-exit': 'ivanka-entrance-exit 8s ease-in-out infinite'
 			}
 		}
 	},

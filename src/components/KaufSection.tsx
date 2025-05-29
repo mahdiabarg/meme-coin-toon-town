@@ -14,11 +14,11 @@ const KaufSection = () => {
           </p>
         </div>
 
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-12 relative">
           <img 
             src="/lovable-uploads/bc541530-7f0b-4329-b2ca-307375ae1b34.png" 
             alt="IVNK Buy" 
-            className="w-72 md:w-96 h-auto drop-shadow-2xl animate-float"
+            className="w-72 md:w-96 h-auto drop-shadow-2xl animate-ivanka-entrance-exit will-change-transform"
           />
         </div>
 

@@ -1,6 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Play } from "lucide-react";
 
 const HowToBuySection = () => {
   return (
@@ -48,13 +49,41 @@ const HowToBuySection = () => {
         </div>
 
         <div className="text-center mb-12">
-          <Button 
-            size="lg"
-            className="bg-black hover:bg-gray-800 text-white font-bold text-xl px-8 py-4 rounded-full"
-            onClick={() => window.open('https://app.turbos.finance/#/trade?input=0x24f7a9147b69a824e56937b6265a7a74d3675f1e4965bb3a0bb2e63fd31ada41::ivnk::IVNK&output=0x2::sui::SUI', '_blank')}
-          >
-            Buy $IVNK Now on Turbos Finance
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button 
+              size="lg"
+              className="bg-black hover:bg-gray-800 text-white font-bold text-xl px-8 py-4 rounded-full"
+              onClick={() => window.open('https://app.turbos.finance/#/trade?input=0x24f7a9147b69a824e56937b6265a7a74d3675f1e4965bb3a0bb2e63fd31ada41::ivnk::IVNK&output=0x2::sui::SUI', '_blank')}
+            >
+              Buy $IVNK Now on Turbos Finance
+            </Button>
+            
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button 
+                  size="lg"
+                  className="bg-red-600 hover:bg-red-700 text-white font-bold text-xl px-8 py-4 rounded-full flex items-center gap-2"
+                >
+                  <Play className="w-5 h-5" />
+                  How to Tutorial
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="max-w-4xl w-full p-0">
+                <div className="aspect-video w-full">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/lx81qyeS5DU"
+                    title="How to Buy IVNK Tutorial"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="rounded-lg"
+                  ></iframe>
+                </div>
+              </DialogContent>
+            </Dialog>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

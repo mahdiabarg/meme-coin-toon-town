@@ -28,7 +28,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-black via-gray-800 to-meme-gold backdrop-blur-lg border-b-4 border-meme-gold">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-lg">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between relative z-10">
         <div className="flex items-center space-x-2">
           <a href="/" className="flex items-center space-x-2">

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -28,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-lg">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between relative z-10">
         <div className="flex items-center space-x-2">
           <a href="/" className="flex items-center space-x-2">
@@ -73,7 +72,7 @@ const Header = () => {
           <Button 
             variant="outline" 
             size="sm" 
-            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
             onClick={() => window.open('https://x.com/Get_Ivanka_Meme', '_blank')}
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -83,7 +82,7 @@ const Header = () => {
           <Button 
             variant="outline" 
             size="sm"
-            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
             onClick={() => window.open('https://discord.gg/8b5YDW62D4', '_blank')}
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -93,7 +92,7 @@ const Header = () => {
           <Button 
             variant="outline" 
             size="sm"
-            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
             onClick={() => window.open('https://www.reddit.com/user/Get_IvankaCoin/', '_blank')}
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -103,7 +102,7 @@ const Header = () => {
           <Button 
             variant="outline" 
             size="sm"
-            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
             onClick={() => window.open('https://t.me/ivankaofficiall', '_blank')}
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -113,7 +112,7 @@ const Header = () => {
           <Button 
             variant="outline" 
             size="sm"
-            className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+            className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
             onClick={() => window.open('https://chat.whatsapp.com/LawvBYPEIevKhNk3TjpTJT', '_blank')}
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -137,7 +136,7 @@ const Header = () => {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-gradient-to-br from-black via-gray-900 to-gray-800 border-t border-meme-gold/30 backdrop-blur-lg z-40">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-black/80 backdrop-blur-lg z-40">
           <div className="container mx-auto px-4 py-6">
             {/* Navigation Links */}
             <div className="space-y-4 mb-6">
@@ -184,7 +183,7 @@ const Header = () => {
               <Button 
                 variant="outline" 
                 size="sm" 
-                className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+                className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
                 onClick={() => window.open('https://x.com/Get_Ivanka_Meme', '_blank')}
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -194,7 +193,7 @@ const Header = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+                className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
                 onClick={() => window.open('https://discord.gg/8b5YDW62D4', '_blank')}
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -204,7 +203,7 @@ const Header = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+                className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
                 onClick={() => window.open('https://www.reddit.com/user/Get_IvankaCoin/', '_blank')}
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -214,7 +213,7 @@ const Header = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+                className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
                 onClick={() => window.open('https://t.me/ivankaofficiall', '_blank')}
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -224,7 +223,7 @@ const Header = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                className="bg-white/20 border-white text-white hover:bg-white hover:text-black"
+                className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-black backdrop-blur-sm"
                 onClick={() => window.open('https://chat.whatsapp.com/LawvBYPEIevKhNk3TjpTJT', '_blank')}
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">

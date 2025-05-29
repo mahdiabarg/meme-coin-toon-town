@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, FileText, Palette, Type, MessageCircle, Mail, ExternalLink } from "lucide-react";
+import { Download, FileText, Palette, Type, MessageCircle, Mail } from "lucide-react";
 
 const PressKit = () => {
   return (
@@ -18,152 +18,168 @@ const PressKit = () => {
               PRESS KIT 📰
             </h1>
             <p className="text-xl text-white/80 font-comic max-w-3xl mx-auto">
-              Welcome to the official IVNK press kit. Here you'll find brand assets, guidelines, and contact information.
+              Offizielle IVNK Presseunterlagen mit strategischen Informationen, Zielen und Marketingmaterialien.
             </p>
           </div>
 
-          {/* Logo Assets */}
+          {/* Strategic Advantages */}
           <section className="mb-16">
-            <h2 className="text-4xl font-bangers text-meme-gold mb-8 flex items-center gap-3">
-              <Download className="w-8 h-8" />
-              Logo Assets
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Strategische Vorteile der Migration
             </h2>
-            <p className="text-white/80 font-comic mb-8">
-              Download our official logos in various formats. Please adhere to our usage guidelines to ensure brand consistency.
-            </p>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardHeader>
-                  <CardTitle className="text-white font-bangers text-xl">Main Logo Pack (.zip)</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-white/80 font-comic mb-4">
-                    Includes SVG, PNG, and EPS formats for both web and print applications. Variants for light and dark backgrounds are provided.
-                  </p>
-                  <Button 
-                    className="w-full bg-meme-gold hover:bg-meme-gold/80 text-black font-bold"
-                    onClick={() => window.open('https://drive.google.com/file/d/1O4WMKR9Cyw3vFCde5PD3BdJ_QF-ApJQF/view?usp=sharing', '_blank')}
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Download Logos
-                  </Button>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardHeader>
-                  <CardTitle className="text-white font-bangers text-xl flex items-center gap-2">
-                    <FileText className="w-5 h-5" />
-                    Logo Usage Guidelines (.pdf)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-white/80 font-comic mb-4">
-                    Essential do's and don'ts for using our brand assets correctly across all media.
-                  </p>
-                  <Button disabled className="w-full bg-gray-600 text-white">
-                    View Guidelines (Coming Soon)
-                  </Button>
-                </CardContent>
-              </Card>
-            </div>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/e6b90707-2dc0-4875-89da-cc991011773d.png" 
+                  alt="Strategische Vorteile der Migration" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
           </section>
 
-          {/* Color Palette */}
+          {/* IVANKA Official */}
           <section className="mb-16">
-            <h2 className="text-4xl font-bangers text-meme-gold mb-8 flex items-center gap-3">
-              <Palette className="w-8 h-8" />
-              Color Palette
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              IVANKA OFFICIAL: Supply-Halbierung und Migration zur SOL-Chain
             </h2>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <div className="w-full h-20 bg-[#D4AF37] rounded-lg mb-4"></div>
-                  <h3 className="font-bangers text-white text-xl mb-2">Primary Gold</h3>
-                  <p className="font-mono text-meme-gold text-lg mb-2">#D4AF37</p>
-                  <p className="text-white/80 font-comic text-sm">Logos, Accents, CTAs</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <div className="w-full h-20 bg-[#1A1F2C] rounded-lg mb-4 border border-white/20"></div>
-                  <h3 className="font-bangers text-white text-xl mb-2">IVANKA Black</h3>
-                  <p className="font-mono text-meme-gold text-lg mb-2">#1A1F2C</p>
-                  <p className="text-white/80 font-comic text-sm">Backgrounds, Dark Text</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <div className="w-full h-20 bg-[#2c3342] rounded-lg mb-4"></div>
-                  <h3 className="font-bangers text-white text-xl mb-2">IVANKA Dark Gray</h3>
-                  <p className="font-mono text-meme-gold text-lg mb-2">#2c3342</p>
-                  <p className="text-white/80 font-comic text-sm">Card Backgrounds, Secondary Elements</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <div className="w-full h-20 bg-[#8E9196] rounded-lg mb-4"></div>
-                  <h3 className="font-bangers text-white text-xl mb-2">IVANKA Gray</h3>
-                  <p className="font-mono text-meme-gold text-lg mb-2">#8E9196</p>
-                  <p className="text-white/80 font-comic text-sm">Secondary Text, Borders</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <div className="w-full h-20 bg-[#9b87f5] rounded-lg mb-4"></div>
-                  <h3 className="font-bangers text-white text-xl mb-2">Primary Purple</h3>
-                  <p className="font-mono text-meme-gold text-lg mb-2">#9b87f5</p>
-                  <p className="text-white/80 font-comic text-sm">Highlight Elements</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <div className="w-full h-20 bg-[#60529A] rounded-lg mb-4"></div>
-                  <h3 className="font-bangers text-white text-xl mb-2">Dark Purple</h3>
-                  <p className="font-mono text-meme-gold text-lg mb-2">#60529A</p>
-                  <p className="text-white/80 font-comic text-sm">Buttons, Accents</p>
-                </CardContent>
-              </Card>
-            </div>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/38d0649d-f142-4201-bf58-42ae045f527f.png" 
+                  alt="IVANKA OFFICIAL Supply-Halbierung und Migration" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
           </section>
 
-          {/* Typography */}
+          {/* Strategic Mission */}
           <section className="mb-16">
-            <h2 className="text-4xl font-bangers text-meme-gold mb-8 flex items-center gap-3">
-              <Type className="w-8 h-8" />
-              Typography
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Strategische Mission
             </h2>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <h3 className="font-bangers text-white text-2xl mb-4">Bangers</h3>
-                  <p className="text-white/80 font-comic mb-4">Usage: Headings (H1, H2, H3)</p>
-                  <p className="text-white/80 font-comic mb-4">Recommended Weights: Bold, Regular</p>
-                  <div className="text-3xl font-bangers text-meme-gold">
-                    Make Crypto Classy Again
-                  </div>
-                </CardContent>
-              </Card>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/4af0ffd8-54f5-41e6-b878-61f7b6166b4d.png" 
+                  alt="Strategische Mission" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
 
-              <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
-                <CardContent className="p-6">
-                  <h3 className="font-bangers text-white text-2xl mb-4">Comic Neue</h3>
-                  <p className="text-white/80 font-comic mb-4">Usage: Body Text, UI Elements</p>
-                  <p className="text-white/80 font-comic mb-4">Recommended Weights: Regular, Medium, Bold</p>
-                  <div className="text-lg font-comic text-white">
-                    The quick brown fox jumps over the lazy dog. 0123456789
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+          {/* Strategic Goals */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Strategische Zielsetzungen
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/889d988f-401c-4aa6-b017-3d5f6b020627.png" 
+                  alt="Strategische Zielsetzungen" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Supply Halving Technical Details */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Supply-Halbierung: Technische Details
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/f28896dc-4b4e-4623-ae86-82016a5ba663.png" 
+                  alt="Supply-Halbierung Technische Details" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Migration to SOL-Chain */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Migration zur SOL-Chain: Airdrop-Mechanismus
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/20e9f47e-ee7e-4a52-bd9e-bd8c12cd8356.png" 
+                  alt="Migration zur SOL-Chain Airdrop-Mechanismus" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Continuity on SUI-Chain */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Kontinuität auf der SUI-Chain
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/15d51037-b5d2-4697-b6fb-97f0147ebc0d.png" 
+                  alt="Kontinuität auf der SUI-Chain" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* xDick Launchpad Integration */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              xDick Launchpad Integration
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/aa1d9d7a-be67-4093-ae4d-89e447d27470.png" 
+                  alt="xDick Launchpad Integration" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* User Statistics */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Aktuelle Nutzerstatistiken
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/d2e0e3b0-74a2-45a6-a7dc-fda4697e21e0.png" 
+                  alt="Aktuelle Nutzerstatistiken" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Future Marketing Strategy */}
+          <section className="mb-16">
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
+              Zukünftige Marketingstrategie
+            </h2>
+            <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
+              <CardContent className="p-8">
+                <img 
+                  src="/lovable-uploads/60d2b4b3-7101-48bf-b035-0c262c70243e.png" 
+                  alt="Zukünftige Marketingstrategie" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </CardContent>
+            </Card>
           </section>
 
           {/* Brand Voice */}
@@ -173,15 +189,15 @@ const PressKit = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bangers text-white text-xl mb-4">Our Motto</h3>
+                  <h3 className="font-bangers text-white text-xl mb-4">Unser Motto</h3>
                   <p className="text-meme-gold font-comic text-lg mb-4">"Make Crypto Classy Again."</p>
                   
-                  <h4 className="font-bangers text-white text-lg mb-2">Tone</h4>
+                  <h4 className="font-bangers text-white text-lg mb-2">Tonalität</h4>
                   <p className="text-white/80 font-comic mb-4">
                     Sophisticated, witty, confident, and approachable. We embrace elegance with a playful twist.
                   </p>
                   
-                  <h4 className="font-bangers text-white text-lg mb-2">Key Messages</h4>
+                  <h4 className="font-bangers text-white text-lg mb-2">Kernbotschaften</h4>
                   <p className="text-white/80 font-comic">
                     Focus on community, innovation in the meme space, and the unique, classy aesthetic of IVNK. 
                     Highlight the fun and engaging aspects while maintaining a refined image.
@@ -191,7 +207,7 @@ const PressKit = () => {
 
               <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bangers text-white text-xl mb-4">Audience Communication</h3>
+                  <h3 className="font-bangers text-white text-xl mb-4">Zielgruppen-Kommunikation</h3>
                   <p className="text-white/80 font-comic">
                     While we are in the crypto space, aim for clarity. Avoid overly technical jargon when 
                     addressing a general audience. We value inclusivity and intelligent humor.
@@ -203,12 +219,12 @@ const PressKit = () => {
 
           {/* Press Inquiries */}
           <section>
-            <h2 className="text-4xl font-bangers text-meme-gold mb-8">Press Inquiries</h2>
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8">Presseanfragen</h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
               <CardContent className="p-8 text-center">
                 <p className="text-white/80 font-comic text-lg mb-6">
-                  For all press and media inquiries, interviews, or asset requests, please reach out through our official channels. 
-                  We're excited to connect with you!
+                  Für alle Presse- und Medienanfragen, Interviews oder Asset-Anfragen kontaktieren Sie uns bitte über unsere offiziellen Kanäle. 
+                  Wir freuen uns darauf, mit Ihnen in Kontakt zu treten!
                 </p>
                 
                 <div className="flex justify-center gap-4">
@@ -217,7 +233,7 @@ const PressKit = () => {
                     className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold"
                   >
                     <MessageCircle className="w-4 h-4 mr-2" />
-                    Join Discord
+                    Discord beitreten
                   </Button>
                   <Button 
                     onClick={() => window.location.href = 'mailto:support@buyivanka.shop'}
@@ -225,7 +241,7 @@ const PressKit = () => {
                     className="border-meme-gold text-meme-gold hover:bg-meme-gold hover:text-black"
                   >
                     <Mail className="w-4 h-4 mr-2" />
-                    Use Contact Form
+                    Kontakt aufnehmen
                   </Button>
                 </div>
               </CardContent>

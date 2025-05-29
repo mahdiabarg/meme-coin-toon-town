@@ -27,12 +27,12 @@ const About = () => {
           <div className="space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Box 1 - Premium Quality */}
-              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-2 border-meme-gold/30">
+              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-meme-gold/50 transition-all duration-300 hover:border-meme-gold hover:shadow-2xl hover:shadow-meme-gold/50 hover:scale-105">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-meme-gold rounded-full flex items-center justify-center mr-4">
                     <span className="text-black font-bold text-xl">💎</span>
                   </div>
-                  <h3 className="text-2xl font-bangers text-white">Premium Quality</h3>
+                  <h3 className="text-2xl font-bangers text-white tracking-wider">Premium Quality</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
                   Built on SUI for unmatched speed and elegance
@@ -40,12 +40,12 @@ const About = () => {
               </div>
 
               {/* Box 2 - Community Driven */}
-              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-2 border-meme-gold/30">
+              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-meme-gold/50 transition-all duration-300 hover:border-meme-gold hover:shadow-2xl hover:shadow-meme-gold/50 hover:scale-105">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-meme-gold rounded-full flex items-center justify-center mr-4">
                     <span className="text-black font-bold text-xl">🚀</span>
                   </div>
-                  <h3 className="text-2xl font-bangers text-white">Community Driven</h3>
+                  <h3 className="text-2xl font-bangers text-white tracking-wider">Community Driven</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
                   Powered by our passionate global community
@@ -53,12 +53,12 @@ const About = () => {
               </div>
 
               {/* Box 3 - Lightning Fast */}
-              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-2 border-meme-gold/30">
+              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-meme-gold/50 transition-all duration-300 hover:border-meme-gold hover:shadow-2xl hover:shadow-meme-gold/50 hover:scale-105">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-meme-gold rounded-full flex items-center justify-center mr-4">
                     <span className="text-black font-bold text-xl">⚡</span>
                   </div>
-                  <h3 className="text-2xl font-bangers text-white">Lightning Fast</h3>
+                  <h3 className="text-2xl font-bangers text-white tracking-wider">Lightning Fast</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
                   Instant transactions on the SUI blockchain
@@ -66,12 +66,12 @@ const About = () => {
               </div>
 
               {/* Box 4 - Revolutionary */}
-              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-2 border-meme-gold/30">
+              <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-meme-gold/50 transition-all duration-300 hover:border-meme-gold hover:shadow-2xl hover:shadow-meme-gold/50 hover:scale-105">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-meme-gold rounded-full flex items-center justify-center mr-4">
                     <span className="text-black font-bold text-xl">🌟</span>
                   </div>
-                  <h3 className="text-2xl font-bangers text-white">Revolutionary</h3>
+                  <h3 className="text-2xl font-bangers text-white tracking-wider">Revolutionary</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
                   Setting new standards in the memecoin space
@@ -80,12 +80,12 @@ const About = () => {
             </div>
 
             {/* Box 5 - Pure SUI Elegance (keeping the same style) */}
-            <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-2 border-meme-gold/30">
+            <div className="bg-gradient-to-r from-meme-gold/20 to-purple-600/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-meme-gold/50 transition-all duration-300 hover:border-meme-gold hover:shadow-2xl hover:shadow-meme-gold/50 hover:scale-105">
               <div className="flex items-center justify-center mb-4">
                 <div className="w-12 h-12 bg-meme-gold rounded-full flex items-center justify-center mr-4">
                   <span className="text-black font-bold text-xl">✨</span>
                 </div>
-                <h3 className="text-3xl font-bangers text-white">PURE SUI ELEGANCE</h3>
+                <h3 className="text-3xl font-bangers text-white tracking-wider">PURE SUI ELEGANCE</h3>
               </div>
               <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
                 Experience the future of memecoins with IVANKA - where sophistication meets 

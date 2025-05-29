@@ -14,7 +14,7 @@ const PressKit = () => {
         <div className="container mx-auto px-4">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-7xl font-bangers text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text mb-6">
+            <h1 className="text-5xl md:text-7xl font-bangers text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-meme-gold bg-clip-text mb-6">
               PRESS KIT 📰
             </h1>
             <p className="text-xl text-white/80 font-comic max-w-3xl mx-auto mb-8">

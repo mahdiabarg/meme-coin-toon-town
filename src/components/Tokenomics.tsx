@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
@@ -119,17 +120,17 @@ const Tokenomics = () => {
         <div className="text-center">
           <div className="bg-black/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-black max-w-4xl mx-auto">
             <h3 className="text-4xl font-bangers text-white mb-6">
-              📊 10% TRANSACTION TAX 📊
+              📊 4% TRANSACTION TAX 📊
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div className="bg-white/10 rounded-xl p-4">
-                <div className="text-2xl font-bangers text-meme-gold mb-2">7.5% Education</div>
+                <div className="text-2xl font-bangers text-meme-gold mb-2">3% Education</div>
                 <p className="text-white font-comic">
                   Funding global educational initiatives and projects
                 </p>
               </div>
               <div className="bg-white/10 rounded-xl p-4">
-                <div className="text-2xl font-bangers text-red-400 mb-2">2.5% Token Burns</div>
+                <div className="text-2xl font-bangers text-red-400 mb-2">1% Token Burns</div>
                 <p className="text-white font-comic">
                   Permanent supply reduction for deflationary mechanism
                 </p>

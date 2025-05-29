@@ -50,7 +50,7 @@ const Hero = () => {
             🚀 BORN ON SUI. NOT BRIDGED. NOT COPIED. 🚀
           </p>
           <p className="text-lg md:text-xl text-white/90 font-comic drop-shadow-md">
-            WE DON'T CHASE HYPE - WE DESIGN VALUE!
+            WE DON'T CHASE HYPE - WE DESIGN VALUE!<br />
             The most elegant SUI token for speed. Built for NOW.
           </p>
         </div>

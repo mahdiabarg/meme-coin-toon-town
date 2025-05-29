@@ -10,6 +10,11 @@ const About = () => {
         <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-white rounded-full blur-lg"></div>
       </div>
 
+      {/* Rakete positioned above the section */}
+      <div className="absolute -top-20 right-10 z-20 animate-rocket-flight">
+        <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
+      </div>
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-6xl md:text-7xl font-bangers text-meme-gold drop-shadow-2xl mb-6">

@@ -92,7 +92,7 @@ const CommunitySection = () => {
               <p className="text-white font-comic mb-6">
                 Access our official press kit with logos, images, and brand guidelines.
               </p>
-              <Button className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold" onClick={() => window.open('https://getivanka.com/press-kit', '_blank')}>
+              <Button className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold" onClick={() => window.location.href = '/press-kit'}>
                 <ExternalLink className="w-4 h-4 mr-2" />
                 View Press Kit
               </Button>

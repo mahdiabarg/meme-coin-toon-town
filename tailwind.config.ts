@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -157,45 +156,61 @@ export default {
 						animationTimingFunction: 'ease-in'
 					}
 				},
-				'ivanka-entrance-exit': {
+				'ivanka-entrance': {
 					'0%': {
-						transform: 'translateX(120vw) translateY(0) scale(1) rotate(0deg)',
+						transform: 'translateX(100vw) translateY(calc(50vh - 50%)) scale(1)',
 						opacity: '0',
-						animationTimingFunction: 'ease-out'
-					},
-					'5%': {
-						opacity: '1',
-						animationTimingFunction: 'ease-out'
+						position: 'fixed',
+						top: '0',
+						left: '0',
+						zIndex: '50'
 					},
 					'20%': {
-						transform: 'translateX(0) translateY(0) scale(1) rotate(0deg)',
-						opacity: '1',
-						animationTimingFunction: 'ease-out'
-					},
-					'25%': {
-						transform: 'translateX(0) translateY(0) scale(1.05) rotate(0deg)',
-						opacity: '1',
-						animationTimingFunction: 'linear'
-					},
-					'65%': {
-						transform: 'translateX(0) translateY(0) scale(1.05) rotate(0deg)',
-						opacity: '1',
-						animationTimingFunction: 'linear'
-					},
-					'70%': {
-						transform: 'translateX(0) translateY(0) scale(1) rotate(0deg)',
-						opacity: '1',
-						animationTimingFunction: 'ease-in'
-					},
-					'85%': {
-						transform: 'translateX(-30vw) translateY(-20vh) scale(0.9) rotate(-10deg)',
-						opacity: '0.8',
-						animationTimingFunction: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+						opacity: '1'
 					},
 					'100%': {
-						transform: 'translateX(-120vw) translateY(-60vh) scale(0.3) rotate(-25deg)',
+						transform: 'translateX(calc(50vw - 50%)) translateY(calc(50vh - 50%)) scale(1.05)',
+						opacity: '1',
+						position: 'fixed',
+						top: '0',
+						left: '0',
+						zIndex: '50'
+					}
+				},
+				'ivanka-pause': {
+					'0%, 100%': {
+						transform: 'translateX(calc(50vw - 50%)) translateY(calc(50vh - 50%)) scale(1.05)',
+						opacity: '1',
+						position: 'fixed',
+						top: '0',
+						left: '0',
+						zIndex: '50'
+					}
+				},
+				'ivanka-exit': {
+					'0%': {
+						transform: 'translateX(calc(50vw - 50%)) translateY(calc(50vh - 50%)) scale(1.05)',
+						opacity: '1',
+						position: 'fixed',
+						top: '0',
+						left: '0',
+						zIndex: '50'
+					},
+					'20%': {
+						transform: 'translateX(calc(40vw - 50%)) translateY(calc(40vh - 50%)) scale(1) rotate(-5deg)',
+						opacity: '0.9'
+					},
+					'60%': {
+						transform: 'translateX(calc(20vw - 50%)) translateY(calc(20vh - 50%)) scale(0.7) rotate(-15deg)',
+						opacity: '0.6'
+					},
+					'100%': {
+						transform: 'translateX(calc(-20vw - 50%)) translateY(calc(-20vh - 50%)) scale(0.3) rotate(-25deg)',
 						opacity: '0',
-						animationTimingFunction: 'cubic-bezier(0.55, 0.085, 0.68, 0.53)'
+						position: 'fixed',
+						top: '0',
+						left: '0',
+						zIndex: '50'
 					}
 				}
 			},
@@ -209,7 +224,9 @@ export default {
 				'spin-slow': 'spin-slow 8s linear infinite',
 				'zoom-in-out': 'zoom-in-out 3s ease-in-out infinite',
 				'rocket-flight': 'rocket-flight 10s ease-in-out infinite',
-				'ivanka-entrance-exit': 'ivanka-entrance-exit 8s ease-in-out infinite'
+				'ivanka-entrance': 'ivanka-entrance 4s ease-out forwards',
+				'ivanka-pause': 'ivanka-pause 1s linear infinite',
+				'ivanka-exit': 'ivanka-exit 2s ease-in forwards'
 			}
 		}
 	},

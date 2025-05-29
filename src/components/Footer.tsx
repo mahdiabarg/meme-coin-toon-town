@@ -18,10 +18,10 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bangers text-meme-gold mb-4">About</h3>
             <div className="space-y-2">
-              <a href="#about" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
+              <a href="/#about" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 About Us
               </a>
-              <a href="#tokenomics" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
+              <a href="/#tokenomics" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 Tokenomics
               </a>
               <a href="/whitepaper" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">

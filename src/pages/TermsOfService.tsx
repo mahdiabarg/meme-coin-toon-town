@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -10,8 +9,9 @@ const TermsOfService = () => {
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
-            <h1 className="text-5xl md:text-6xl font-bangers text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text mb-6">
-              TERMS OF SERVICE ⚖️
+            <h1 className="text-5xl md:text-6xl font-bangers mb-6">
+              <span className="text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text">TERMS OF SERVICE</span>{" "}
+              <span className="text-white">⚖️</span>
             </h1>
             <p className="text-lg text-white/80 font-comic">
               Last updated: December 2024

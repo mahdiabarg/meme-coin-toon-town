@@ -1,4 +1,5 @@
 
+
 import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   return <section id="about" className="py-20 bg-gradient-to-br from-black via-purple-900 to-purple-600 relative overflow-hidden">
@@ -111,9 +112,12 @@ const About = () => {
               </div>
               
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 bg-gradient-to-r from-meme-gold to-yellow-300 text-black px-6 py-3 rounded-full font-bold animate-bounce-custom shadow-lg">
+              <button 
+                onClick={() => window.open('https://sui.io/', '_blank')}
+                className="absolute -top-4 -right-4 bg-gradient-to-r from-meme-gold to-yellow-300 text-black px-6 py-3 rounded-full font-bold animate-bounce-custom shadow-lg hover:scale-105 transition-transform cursor-pointer"
+              >
                 ✨ PURE SUI ✨
-              </div>
+              </button>
               <div className="absolute -bottom-4 -left-4 bg-gradient-to-r from-purple-600 to-purple-400 text-white px-6 py-3 rounded-full font-bold animate-bounce-custom shadow-lg">
                 👑 QUEEN 👑
               </div>
@@ -124,3 +128,4 @@ const About = () => {
     </section>;
 };
 export default About;
+

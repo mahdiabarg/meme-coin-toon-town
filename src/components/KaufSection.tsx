@@ -1,59 +1,9 @@
 
 import { Button } from "@/components/ui/button";
-import { useState, useEffect, useRef } from "react";
 
 const KaufSection = () => {
-  const [animationPhase, setAnimationPhase] = useState<'entering' | 'paused' | 'exiting'>('entering');
-  const sectionRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!sectionRef.current) return;
-
-      const rect = sectionRef.current.getBoundingClientRect();
-      const sectionBottom = rect.bottom;
-      const viewportHeight = window.innerHeight;
-      
-      // Trigger exit animation when section is 30% scrolled past
-      if (sectionBottom < viewportHeight * 0.7 && animationPhase !== 'exiting') {
-        setAnimationPhase('exiting');
-      }
-      // Reset to entering when scrolling back up
-      else if (sectionBottom > viewportHeight * 0.8 && animationPhase === 'exiting') {
-        setAnimationPhase('entering');
-      }
-    };
-
-    // Set to paused after entrance animation completes (4 seconds)
-    const pauseTimer = setTimeout(() => {
-      if (animationPhase === 'entering') {
-        setAnimationPhase('paused');
-      }
-    }, 4000);
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      clearTimeout(pauseTimer);
-    };
-  }, [animationPhase]);
-
-  const getAnimationClass = () => {
-    switch (animationPhase) {
-      case 'entering':
-        return 'animate-ivanka-entrance';
-      case 'paused':
-        return 'animate-ivanka-pause';
-      case 'exiting':
-        return 'animate-ivanka-exit';
-      default:
-        return 'animate-ivanka-entrance';
-    }
-  };
-
   return (
-    <section ref={sectionRef} className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-black via-gray-800 to-meme-gold relative overflow-hidden">
       <div className="container mx-auto px-4 text-center">
         <div className="mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-white drop-shadow-2xl mb-6">
@@ -64,11 +14,11 @@ const KaufSection = () => {
           </p>
         </div>
 
-        <div className="flex justify-center mb-12 relative">
+        <div className="flex justify-center mb-12">
           <img 
             src="/lovable-uploads/bc541530-7f0b-4329-b2ca-307375ae1b34.png" 
             alt="IVNK Buy" 
-            className={`w-72 md:w-96 h-auto drop-shadow-2xl will-change-transform ${getAnimationClass()}`}
+            className="w-72 md:w-96 h-auto drop-shadow-2xl"
           />
         </div>
 

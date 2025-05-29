@@ -29,12 +29,12 @@ const BlogSection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bangers drop-shadow-2xl mb-6">
-            <span className="text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text">IVANKA INSIGHTS</span>{" "}
+          <h3 className="text-5xl md:text-6xl font-bangers drop-shadow-2xl mb-6">
+            <span className="text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text">IVNK CRYPTOCURRENCY INSIGHTS</span>{" "}
             <span className="text-white">📰</span>
-          </h2>
+          </h3>
           <p className="text-xl text-white/80 font-comic max-w-3xl mx-auto mb-8">
-            Stay ahead of the curve with our latest analysis, market insights, and industry updates from the IVANKA ecosystem
+            Stay ahead of the curve with our latest analysis, market insights, and DeFi industry updates from the IVNK ecosystem
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const BlogSection = () => {
                     {!failedImages.has(post.id) && (
                       <img 
                         src={post.image} 
-                        alt={post.title}
+                        alt={`${post.title} - IVNK cryptocurrency blog post about ${post.category.toLowerCase()}`}
                         loading={index < 2 ? "eager" : "lazy"}
                         width="400"
                         height="192"
@@ -84,9 +84,9 @@ const BlogSection = () => {
                 )}
                 
                 <div className="p-6">
-                  <h3 className="text-lg font-bangers text-white mb-3 group-hover:text-meme-gold transition-colors line-clamp-2">
+                  <h4 className="text-lg font-bangers text-white mb-3 group-hover:text-meme-gold transition-colors line-clamp-2">
                     {post.title}
-                  </h3>
+                  </h4>
                   
                   <p className="text-white/80 font-comic text-sm mb-4 line-clamp-3">
                     {post.excerpt}
@@ -125,7 +125,7 @@ const BlogSection = () => {
             size="lg"
             className="bg-gradient-to-r from-meme-gold to-yellow-400 hover:from-yellow-400 hover:to-meme-gold text-black font-bangers text-xl px-8 py-4 rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
           >
-            🔥 READ ALL ARTICLES 🔥
+            🔥 READ ALL CRYPTO ARTICLES 🔥
           </Button>
         </div>
       </div>

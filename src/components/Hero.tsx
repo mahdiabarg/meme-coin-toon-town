@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
 
@@ -12,6 +13,7 @@ const Hero = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          title="IVNK Token Background Video"
         />
       </div>
 
@@ -21,16 +23,22 @@ const Hero = () => {
         <div className="absolute top-16 left-5 animate-float">
           <img 
             src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
-            alt="IVNK Helicopter" 
+            alt="IVNK helicopter illustration - SUI blockchain meme coin mascot" 
             className="w-[30rem] md:w-[42rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
+            loading="eager"
+            width="672"
+            height="auto"
           />
         </div>
         {/* Character meme positioned on the right - made much bigger */}
         <div className="absolute bottom-10 right-10 md:right-20 animate-bounce-custom">
           <img 
             src="/lovable-uploads/c9eb10f6-0f1b-482e-8d6a-56980b125e9c.png" 
-            alt="IVNK Character" 
+            alt="IVNK character mascot - Ivanka meme coin on SUI network" 
             className="w-72 md:w-96 h-auto drop-shadow-2xl"
+            loading="eager"
+            width="384"
+            height="auto"
           />
         </div>
       </div>
@@ -38,20 +46,20 @@ const Hero = () => {
       <div className="container mx-auto px-4 pt-32 pb-12 flex flex-col items-center justify-center min-h-screen text-center relative z-20">
         <div className="mb-8 animate-bounce-custom">
           <h1 className="text-6xl md:text-8xl font-bangers text-white drop-shadow-2xl mb-4">
-            $IVNK
+            IVNK Token - Premium SUI Meme Coin
           </h1>
           <div className="text-2xl md:text-4xl font-comic text-meme-gold font-bold drop-shadow-lg">
-            THE QUEEN OF SUI! 👑
+            THE QUEEN OF SUI BLOCKCHAIN! 👑
           </div>
         </div>
 
         <div className="max-w-4xl mb-12">
-          <p className="text-xl md:text-2xl text-white font-comic mb-6 drop-shadow-lg">
+          <h2 className="text-xl md:text-2xl text-white font-comic mb-6 drop-shadow-lg">
             🚀 BORN ON SUI. NOT BRIDGED. NOT COPIED. 🚀
-          </p>
+          </h2>
           <p className="text-lg md:text-xl text-white/90 font-comic drop-shadow-md">
             WE DON'T CHASE HYPE - WE DESIGN VALUE!<br />
-            The most elegant SUI token for speed. Built for NOW.
+            The most elegant SUI cryptocurrency for speed. Built for NOW.
           </p>
         </div>
 
@@ -76,20 +84,20 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl">
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="text-3xl mb-2">🎯</div>
-            <h3 className="font-bold text-white text-lg mb-2">100% PURE</h3>
-            <p className="text-white/80 text-sm">No bridges, no copies - just pure SUI power!</p>
+            <h3 className="font-bold text-white text-lg mb-2">100% PURE SUI</h3>
+            <p className="text-white/80 text-sm">No bridges, no copies - just pure SUI blockchain power!</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="text-3xl mb-2">⚡</div>
-            <h3 className="font-bold text-white text-lg mb-2">SPEED</h3>
-            <p className="text-white/80 text-sm">Lightning-fast transactions on the SUI Network!</p>
+            <h3 className="font-bold text-white text-lg mb-2">LIGHTNING SPEED</h3>
+            <p className="text-white/80 text-sm">Lightning-fast cryptocurrency transactions on the SUI Network!</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="text-3xl mb-2">👑</div>
-            <h3 className="font-bold text-white text-lg mb-2">ELEGANT</h3>
-            <p className="text-white/80 text-sm">The most elegant token in the entire SUI ecosystem!</p>
+            <h3 className="font-bold text-white text-lg mb-2">ELEGANT DESIGN</h3>
+            <p className="text-white/80 text-sm">The most elegant meme coin in the entire SUI ecosystem!</p>
           </div>
         </div>
       </div>

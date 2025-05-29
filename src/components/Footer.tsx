@@ -9,18 +9,21 @@ const Footer = () => {
       <div className="absolute bottom-0 right-10 z-10">
         <img 
           src="/lovable-uploads/aa192f5b-ec47-4263-bda9-02cfc4c2542c.png" 
-          alt="IVNK Bathtub" 
+          alt="IVNK bathtub illustration - SUI meme cryptocurrency relaxation theme" 
           className="w-64 md:w-80 h-auto"
+          loading="lazy"
+          width="320"
+          height="auto"
         />
       </div>
 
       <div className="container mx-auto px-4 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bangers text-meme-gold mb-4">About</h3>
+            <h5 className="text-2xl font-bangers text-meme-gold mb-4">About IVNK</h5>
             <div className="space-y-2">
               <a href="/#about" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
-                About Us
+                About IVNK Token
               </a>
               <a href="/#tokenomics" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 Tokenomics
@@ -32,7 +35,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-bangers text-meme-gold mb-4">Community</h4>
+            <h5 className="text-2xl font-bangers text-meme-gold mb-4">Crypto Community</h5>
             <div className="space-y-2">
               <a href="https://x.com/Get_Ivanka_Meme" target="_blank" rel="noopener noreferrer" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 X (Twitter)
@@ -50,16 +53,16 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-bangers text-meme-gold mb-4">Resources</h4>
+            <h5 className="text-2xl font-bangers text-meme-gold mb-4">Resources</h5>
             <div className="space-y-2">
               <a href="/how-to-buy" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
-                How to Buy
+                How to Buy IVNK
               </a>
               <a href="#faq" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 FAQs
               </a>
               <a href="/blog" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
-                Blog
+                Crypto Blog
               </a>
               <a href="/press-kit" target="_blank" rel="noopener noreferrer" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 Press Kit
@@ -68,7 +71,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-2xl font-bangers text-meme-gold mb-4">Legal</h4>
+            <h5 className="text-2xl font-bangers text-meme-gold mb-4">Legal</h5>
             <div className="space-y-2">
               <a href="/privacy-policy" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 Privacy Policy

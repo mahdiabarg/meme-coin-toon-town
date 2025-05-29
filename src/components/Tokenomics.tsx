@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
@@ -7,10 +8,10 @@ const Tokenomics = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-black drop-shadow-2xl mb-6">
-            TOKENOMICS 📊
+            IVNK TOKENOMICS & DISTRIBUTION 📊
           </h2>
           <p className="text-xl text-black/80 font-comic max-w-3xl mx-auto">
-            Fair, transparent and made for the community! 💎
+            Fair, transparent and made for the cryptocurrency community! 💎
           </p>
         </div>
 
@@ -18,16 +19,23 @@ const Tokenomics = () => {
           <Card className="bg-white/20 backdrop-blur-lg border-4 border-white shadow-2xl">
             <CardHeader>
               <CardTitle className="text-3xl font-bangers text-black text-center">
-                TOKEN DETAILS 💰
+                IVNK TOKEN DETAILS 💰
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="text-center">
                 <div className="flex items-center justify-center mb-4">
-                  <img src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" alt="IVNK Coin" className="w-16 h-16 mr-3 object-cover" />
+                  <img 
+                    src="/lovable-uploads/e3b7da9f-71c6-46cc-a3c3-3716a02c4eda.png" 
+                    alt="IVNK coin logo - SUI blockchain meme cryptocurrency token" 
+                    className="w-16 h-16 mr-3 object-cover" 
+                    loading="lazy"
+                    width="64"
+                    height="64"
+                  />
                   <div className="text-4xl font-bangers text-black">$IVNK</div>
                 </div>
-                <div className="text-lg font-comic text-black">The most elegant SUI token</div>
+                <div className="text-lg font-comic text-black">The most elegant SUI meme token</div>
               </div>
               
               <div className="space-y-4">
@@ -52,7 +60,7 @@ const Tokenomics = () => {
           <Card className="bg-white/20 backdrop-blur-lg border-4 border-white shadow-2xl">
             <CardHeader>
               <CardTitle className="text-3xl font-bangers text-black text-center">
-                DISTRIBUTION 📈
+                TOKEN DISTRIBUTION 📈
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -64,13 +72,13 @@ const Tokenomics = () => {
                   </div>
                   <Progress value={40} className="h-4 bg-white/50" />
                   <div className="text-xs text-black/70 font-comic mt-1">
-                    10% specifically for airdrops to early supporters
+                    10% specifically for cryptocurrency airdrops to early supporters
                   </div>
                 </div>
                 
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="font-comic font-bold text-black">Liquidity Pool (20%)</span>
+                    <span className="font-comic font-bold text-black">DeFi Liquidity Pool (20%)</span>
                     <span className="font-bangers text-black">200M</span>
                   </div>
                   <Progress value={20} className="h-4 bg-white/50" />
@@ -109,7 +117,14 @@ const Tokenomics = () => {
 
         {/* Rakete with dramatic flight animation - positioned in front with highest z-index */}
         <div className="absolute bottom-10 right-10 animate-rocket-flight z-[9999]">
-          <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
+          <img 
+            src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" 
+            alt="IVNK rocket ship - SUI cryptocurrency ascending to new heights" 
+            className="w-80 md:w-96 h-auto drop-shadow-2xl" 
+            loading="lazy"
+            width="384"
+            height="auto"
+          />
         </div>
 
         <div className="text-center">

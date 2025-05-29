@@ -1,5 +1,3 @@
-
-
 import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   return <section id="about" className="py-20 bg-gradient-to-br from-black via-purple-900 to-purple-600 relative overflow-hidden">
@@ -18,13 +16,13 @@ const About = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-6xl md:text-7xl font-bangers text-meme-gold drop-shadow-2xl mb-6">
-            ABOUT IVANKA 👑
+            ABOUT IVNK - SUI MEME COIN 👑
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-meme-gold to-purple-400 mx-auto mb-8"></div>
           <p className="text-xl md:text-2xl text-white/90 font-comic leading-relaxed max-w-4xl mx-auto">
-            Born from pure SUI elegance, IVANKA ($IVNK) represents the perfect fusion of 
-            sophisticated charm and memecoin culture. We're not just another token - 
-            we're a movement celebrating grace, success, and the power of community.
+            Born from pure SUI elegance, IVNK ($IVNK) represents the perfect fusion of 
+            sophisticated charm and cryptocurrency meme culture. We're not just another token - 
+            we're a movement celebrating grace, success, and the power of DeFi community.
           </p>
         </div>
 
@@ -40,7 +38,7 @@ const About = () => {
                   <h3 className="text-2xl font-bangers text-white tracking-wider">Premium Quality</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
-                  Built on SUI for unmatched speed and elegance
+                  Built on SUI blockchain for unmatched speed and elegance
                 </p>
               </div>
 
@@ -53,7 +51,7 @@ const About = () => {
                   <h3 className="text-2xl font-bangers text-white tracking-wider">Community Driven</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
-                  Powered by our passionate global community
+                  Powered by our passionate global cryptocurrency community
                 </p>
               </div>
 
@@ -66,7 +64,7 @@ const About = () => {
                   <h3 className="text-2xl font-bangers text-white tracking-wider">Lightning Fast</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
-                  Instant transactions on the SUI blockchain
+                  Instant crypto transactions on the SUI blockchain network
                 </p>
               </div>
 
@@ -79,7 +77,7 @@ const About = () => {
                   <h3 className="text-2xl font-bangers text-white tracking-wider">Revolutionary</h3>
                 </div>
                 <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
-                  Setting new standards in the memecoin space
+                  Setting new standards in the DeFi memecoin space
                 </p>
               </div>
             </div>
@@ -93,8 +91,8 @@ const About = () => {
                 <h3 className="text-3xl font-bangers text-white tracking-wider">PURE SUI ELEGANCE</h3>
               </div>
               <p className="text-white/90 font-comic text-center text-lg leading-relaxed">
-                Experience the future of memecoins with IVANKA - where sophistication meets 
-                blockchain innovation on the fastest network in crypto.
+                Experience the future of memecoins with IVNK - where sophistication meets 
+                blockchain innovation on the fastest cryptocurrency network.
               </p>
             </div>
           </div>
@@ -103,18 +101,33 @@ const About = () => {
             <div className="relative">
               {/* Airplane positioned in the center */}
               <div className="mb-8 flex justify-center">
-                <img src="/lovable-uploads/04e56ecb-5583-42ad-b2e8-799e51915088.png" alt="IVNK Airplane" className="w-80 md:w-96 h-auto drop-shadow-2xl animate-float" />
+                <img 
+                  src="/lovable-uploads/04e56ecb-5583-42ad-b2e8-799e51915088.png" 
+                  alt="IVNK airplane - SUI blockchain meme cryptocurrency mascot flying high" 
+                  className="w-80 md:w-96 h-auto drop-shadow-2xl animate-float" 
+                  loading="lazy"
+                  width="384"
+                  height="auto"
+                />
               </div>
               
               {/* Tutorial4 image positioned below the airplane with rounded corners */}
               <div className="flex justify-center">
-                <img src="/lovable-uploads/15f00140-cbb7-44d6-8e42-7106e7a9a739.png" alt="Tutorial 4" className="w-64 md:w-80 h-auto drop-shadow-xl rounded-3xl" />
+                <img 
+                  src="/lovable-uploads/15f00140-cbb7-44d6-8e42-7106e7a9a739.png" 
+                  alt="IVNK tutorial guide - How to buy IVNK token on SUI network step by step" 
+                  className="w-64 md:w-80 h-auto drop-shadow-xl rounded-3xl" 
+                  loading="lazy"
+                  width="320"
+                  height="auto"
+                />
               </div>
               
               {/* Decorative elements */}
               <button 
                 onClick={() => window.open('https://sui.io/', '_blank')}
                 className="absolute -top-4 -right-4 bg-gradient-to-r from-meme-gold to-yellow-300 text-black px-6 py-3 rounded-full font-bold animate-bounce-custom shadow-lg hover:scale-105 transition-transform cursor-pointer"
+                aria-label="Learn more about SUI blockchain network"
               >
                 ✨ PURE SUI ✨
               </button>
@@ -128,4 +141,3 @@ const About = () => {
     </section>;
 };
 export default About;
-

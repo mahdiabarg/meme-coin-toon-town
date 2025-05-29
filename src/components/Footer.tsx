@@ -60,7 +60,7 @@ const Footer = () => {
               <a href="/blog" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 Blog
               </a>
-              <a href="https://getivanka.com/press-kit" target="_blank" rel="noopener noreferrer" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
+              <a href="/press-kit" target="_blank" rel="noopener noreferrer" className="block text-white/80 hover:text-meme-gold transition-colors font-comic text-sm">
                 Press Kit
               </a>
             </div>

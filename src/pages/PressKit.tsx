@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, FileText, Palette, Type, MessageCircle, Mail } from "lucide-react";
+import { Download, FileText, Palette, Type, MessageCircle, Mail, ExternalLink } from "lucide-react";
 
 const PressKit = () => {
   return (
@@ -41,8 +41,12 @@ const PressKit = () => {
                   <p className="text-white/80 font-comic mb-4">
                     Includes SVG, PNG, and EPS formats for both web and print applications. Variants for light and dark backgrounds are provided.
                   </p>
-                  <Button disabled className="w-full bg-gray-600 text-white">
-                    Download Logos (Coming Soon)
+                  <Button 
+                    className="w-full bg-meme-gold hover:bg-meme-gold/80 text-black font-bold"
+                    onClick={() => window.open('https://drive.google.com/file/d/1O4WMKR9Cyw3vFCde5PD3BdJ_QF-ApJQF/view?usp=sharing', '_blank')}
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Download Logos
                   </Button>
                 </CardContent>
               </Card>

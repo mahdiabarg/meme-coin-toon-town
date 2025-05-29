@@ -17,7 +17,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <div className="pt-20"> {/* Add padding-top to account for fixed header */}
+      <div>
         <Hero />
         <About />
         <Tokenomics />

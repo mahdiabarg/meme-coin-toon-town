@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 pt-24 pb-12 flex flex-col items-center justify-center min-h-screen text-center relative z-20">
+      <div className="container mx-auto px-4 pt-32 pb-12 flex flex-col items-center justify-center min-h-screen text-center relative z-20">
         <div className="mb-8 animate-bounce-custom">
           <h1 className="text-6xl md:text-8xl font-bangers text-white drop-shadow-2xl mb-4">
             $IVNK

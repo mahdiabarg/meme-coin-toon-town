@@ -1,11 +1,12 @@
 
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, User, ArrowRight } from "lucide-react";
 import { blogPosts } from "@/data/blogPosts";
 
 const BlogSection = () => {
-  const featuredPosts = blogPosts.slice(0, 3);
+  const featuredPosts = blogPosts.slice(0, 4);
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-900 via-black to-purple-900 relative overflow-hidden">
@@ -26,7 +27,7 @@ const BlogSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {featuredPosts.map((post, index) => (
             <Card key={post.id} className="bg-white/10 backdrop-blur-lg border border-white/20 hover:bg-white/15 transition-all duration-300 transform hover:scale-105 group">
               <CardContent className="p-0">
@@ -96,3 +97,4 @@ const BlogSection = () => {
 };
 
 export default BlogSection;
+

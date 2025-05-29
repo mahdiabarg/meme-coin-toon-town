@@ -33,7 +33,7 @@ const Header = () => {
         <div className="flex items-center space-x-2">
           <a href="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/ae702d73-d681-48e5-bf2f-a1646cf0926d.png" 
+              src="/lovable-uploads/849658fa-1be5-4d49-8734-783fbd600808.png" 
               alt="IVANKA Logo" 
               className="h-12 w-auto filter drop-shadow-lg hover:scale-105 transition-transform duration-300"
             />

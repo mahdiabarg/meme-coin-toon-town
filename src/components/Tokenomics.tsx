@@ -1,10 +1,7 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-
 const Tokenomics = () => {
-  return (
-    <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative">
+  return <section id="tokenomics" className="py-20 bg-gradient-to-br from-meme-gold via-orange-500 to-black relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bangers text-black drop-shadow-2xl mb-6">
@@ -110,41 +107,13 @@ const Tokenomics = () => {
 
         {/* Rakete positioned at bottom right */}
         <div className="absolute bottom-10 right-10 animate-float">
-          <img 
-            src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" 
-            alt="IVNK Rakete" 
-            className="w-80 md:w-96 h-auto drop-shadow-2xl" 
-          />
+          <img src="/lovable-uploads/b4a41b89-66a5-4a1f-ab82-32448ca2c90b.png" alt="IVNK Rakete" className="w-80 md:w-96 h-auto drop-shadow-2xl" />
         </div>
 
         <div className="text-center">
-          <div className="bg-black/20 backdrop-blur-lg rounded-3xl p-8 border-4 border-black max-w-4xl mx-auto">
-            <h3 className="text-4xl font-bangers text-white mb-6">
-              📊 4% TRANSACTION TAX 📊
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <div className="bg-white/10 rounded-xl p-4">
-                <div className="text-2xl font-bangers text-meme-gold mb-2">3% Education</div>
-                <p className="text-white font-comic">
-                  Funding global educational initiatives and projects
-                </p>
-              </div>
-              <div className="bg-white/10 rounded-xl p-4">
-                <div className="text-2xl font-bangers text-red-400 mb-2">1% Token Burns</div>
-                <p className="text-white font-comic">
-                  Permanent supply reduction for deflationary mechanism
-                </p>
-              </div>
-            </div>
-            <p className="text-lg text-white/80 font-comic">
-              Every transaction contributes to education and reduces total supply! 
-              Making a positive impact while building value! 🎓🔥
-            </p>
-          </div>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Tokenomics;

@@ -18,20 +18,20 @@ const PressKit = () => {
               PRESS KIT 📰
             </h1>
             <p className="text-xl text-white/80 font-comic max-w-3xl mx-auto">
-              Offizielle IVNK Presseunterlagen mit strategischen Informationen, Zielen und Marketingmaterialien.
+              Official IVNK press materials with strategic information, goals and marketing assets.
             </p>
           </div>
 
           {/* Strategic Advantages */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Strategische Vorteile der Migration
+              Strategic Advantages of Migration
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/e6b90707-2dc0-4875-89da-cc991011773d.png" 
-                  alt="Strategische Vorteile der Migration" 
+                  alt="Strategic Advantages of Migration" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -41,13 +41,13 @@ const PressKit = () => {
           {/* IVANKA Official */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              IVANKA OFFICIAL: Supply-Halbierung und Migration zur SOL-Chain
+              IVANKA OFFICIAL: Supply Halving and SOL-Chain Migration
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/38d0649d-f142-4201-bf58-42ae045f527f.png" 
-                  alt="IVANKA OFFICIAL Supply-Halbierung und Migration" 
+                  alt="IVANKA OFFICIAL Supply Halving and Migration" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -57,13 +57,13 @@ const PressKit = () => {
           {/* Strategic Mission */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Strategische Mission
+              Strategic Mission
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/4af0ffd8-54f5-41e6-b878-61f7b6166b4d.png" 
-                  alt="Strategische Mission" 
+                  alt="Strategic Mission" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -73,13 +73,13 @@ const PressKit = () => {
           {/* Strategic Goals */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Strategische Zielsetzungen
+              Strategic Goals
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/889d988f-401c-4aa6-b017-3d5f6b020627.png" 
-                  alt="Strategische Zielsetzungen" 
+                  alt="Strategic Goals" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -89,13 +89,13 @@ const PressKit = () => {
           {/* Supply Halving Technical Details */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Supply-Halbierung: Technische Details
+              Supply Halving: Technical Details
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/f28896dc-4b4e-4623-ae86-82016a5ba663.png" 
-                  alt="Supply-Halbierung Technische Details" 
+                  alt="Supply Halving Technical Details" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -105,13 +105,13 @@ const PressKit = () => {
           {/* Migration to SOL-Chain */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Migration zur SOL-Chain: Airdrop-Mechanismus
+              SOL-Chain Migration: Airdrop Mechanism
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/20e9f47e-ee7e-4a52-bd9e-bd8c12cd8356.png" 
-                  alt="Migration zur SOL-Chain Airdrop-Mechanismus" 
+                  alt="SOL-Chain Migration Airdrop Mechanism" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -121,13 +121,13 @@ const PressKit = () => {
           {/* Continuity on SUI-Chain */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Kontinuität auf der SUI-Chain
+              Continuity on SUI-Chain
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/15d51037-b5d2-4697-b6fb-97f0147ebc0d.png" 
-                  alt="Kontinuität auf der SUI-Chain" 
+                  alt="Continuity on SUI-Chain" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -153,13 +153,13 @@ const PressKit = () => {
           {/* User Statistics */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Aktuelle Nutzerstatistiken
+              Current User Statistics
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/d2e0e3b0-74a2-45a6-a7dc-fda4697e21e0.png" 
-                  alt="Aktuelle Nutzerstatistiken" 
+                  alt="Current User Statistics" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -169,13 +169,13 @@ const PressKit = () => {
           {/* Future Marketing Strategy */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Zukünftige Marketingstrategie
+              Future Marketing Strategy
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/60d2b4b3-7101-48bf-b035-0c262c70243e.png" 
-                  alt="Zukünftige Marketingstrategie" 
+                  alt="Future Marketing Strategy" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -185,13 +185,13 @@ const PressKit = () => {
           {/* Next Steps and Implementation */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Nächste Schritte und Umsetzung
+              Next Steps and Implementation
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/69fc9644-b89c-434f-b824-5d991012d5a5.png" 
-                  alt="Nächste Schritte und Umsetzung" 
+                  alt="Next Steps and Implementation" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -201,13 +201,13 @@ const PressKit = () => {
           {/* Detailed Roadmap and Financing */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Detaillierte Roadmap und Finanzierung
+              Detailed Roadmap and Financing
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/1d2bc2d8-ed52-4b04-bc46-064f26eddc5e.png" 
-                  alt="Detaillierte Roadmap und Finanzierung" 
+                  alt="Detailed Roadmap and Financing" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -217,13 +217,13 @@ const PressKit = () => {
           {/* IVANKA NFT Collection Financing - Part 1 */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              IVANKA NFT Collection Finanzierung
+              IVANKA NFT Collection Financing
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/1da2777e-c1d5-405b-9702-9dfba03e17b8.png" 
-                  alt="IVANKA NFT Collection Finanzierung" 
+                  alt="IVANKA NFT Collection Financing" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -249,13 +249,13 @@ const PressKit = () => {
           {/* Contact and Further Information */}
           <section className="mb-16">
             <h2 className="text-4xl font-bangers text-meme-gold mb-8 text-center">
-              Kontakt und weitere Informationen
+              Contact and Further Information
             </h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20 mb-8">
               <CardContent className="p-8">
                 <img 
                   src="/lovable-uploads/0114280a-0953-422b-91ad-073aeeda35ae.png" 
-                  alt="Kontakt und weitere Informationen" 
+                  alt="Contact and Further Information" 
                   className="w-full h-auto rounded-lg"
                 />
               </CardContent>
@@ -269,15 +269,15 @@ const PressKit = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bangers text-white text-xl mb-4">Unser Motto</h3>
+                  <h3 className="font-bangers text-white text-xl mb-4">Our Motto</h3>
                   <p className="text-meme-gold font-comic text-lg mb-4">"Make Crypto Classy Again."</p>
                   
-                  <h4 className="font-bangers text-white text-lg mb-2">Tonalität</h4>
+                  <h4 className="font-bangers text-white text-lg mb-2">Tone of Voice</h4>
                   <p className="text-white/80 font-comic mb-4">
                     Sophisticated, witty, confident, and approachable. We embrace elegance with a playful twist.
                   </p>
                   
-                  <h4 className="font-bangers text-white text-lg mb-2">Kernbotschaften</h4>
+                  <h4 className="font-bangers text-white text-lg mb-2">Core Messages</h4>
                   <p className="text-white/80 font-comic">
                     Focus on community, innovation in the meme space, and the unique, classy aesthetic of IVNK. 
                     Highlight the fun and engaging aspects while maintaining a refined image.
@@ -287,7 +287,7 @@ const PressKit = () => {
 
               <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bangers text-white text-xl mb-4">Zielgruppen-Kommunikation</h3>
+                  <h3 className="font-bangers text-white text-xl mb-4">Target Audience Communication</h3>
                   <p className="text-white/80 font-comic">
                     While we are in the crypto space, aim for clarity. Avoid overly technical jargon when 
                     addressing a general audience. We value inclusivity and intelligent humor.
@@ -299,12 +299,12 @@ const PressKit = () => {
 
           {/* Press Inquiries */}
           <section>
-            <h2 className="text-4xl font-bangers text-meme-gold mb-8">Presseanfragen</h2>
+            <h2 className="text-4xl font-bangers text-meme-gold mb-8">Press Inquiries</h2>
             <Card className="bg-white/10 backdrop-blur-lg border border-white/20">
               <CardContent className="p-8 text-center">
                 <p className="text-white/80 font-comic text-lg mb-6">
-                  Für alle Presse- und Medienanfragen, Interviews oder Asset-Anfragen kontaktieren Sie uns bitte über unsere offiziellen Kanäle. 
-                  Wir freuen uns darauf, mit Ihnen in Kontakt zu treten!
+                  For all press and media inquiries, interviews or asset requests, please contact us through our official channels. 
+                  We look forward to connecting with you!
                 </p>
                 
                 <div className="flex justify-center gap-4">
@@ -313,7 +313,7 @@ const PressKit = () => {
                     className="bg-meme-gold hover:bg-meme-gold-dark text-black font-bold"
                   >
                     <MessageCircle className="w-4 h-4 mr-2" />
-                    Discord beitreten
+                    Join Discord
                   </Button>
                   <Button 
                     onClick={() => window.location.href = 'mailto:support@buyivanka.shop'}
@@ -321,7 +321,7 @@ const PressKit = () => {
                     className="border-meme-gold text-meme-gold hover:bg-meme-gold hover:text-black"
                   >
                     <Mail className="w-4 h-4 mr-2" />
-                    Kontakt aufnehmen
+                    Contact Us
                   </Button>
                 </div>
               </CardContent>

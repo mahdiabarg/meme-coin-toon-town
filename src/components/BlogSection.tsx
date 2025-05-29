@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, User, ArrowRight } from "lucide-react";
@@ -17,8 +16,9 @@ const BlogSection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bangers text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text drop-shadow-2xl mb-6">
-            IVANKA INSIGHTS 📰
+          <h2 className="text-5xl md:text-6xl font-bangers drop-shadow-2xl mb-6">
+            <span className="text-transparent bg-gradient-to-r from-meme-gold via-yellow-400 to-orange-500 bg-clip-text">IVANKA INSIGHTS</span>{" "}
+            <span className="text-white">📰</span>
           </h2>
           <p className="text-xl text-white/80 font-comic max-w-3xl mx-auto mb-8">
             Stay ahead of the curve with our latest analysis, market insights, and industry updates from the IVANKA ecosystem

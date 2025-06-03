@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Circle, Clock } from "lucide-react";
 
@@ -33,6 +32,7 @@ const Roadmap = () => {
       items: [
         "SUI Ecosystem Integration",
         "NFT Collection Launch",
+        "IVNK AI Trading Agent",
         "Utility Development",
         "Global Marketing"
       ]

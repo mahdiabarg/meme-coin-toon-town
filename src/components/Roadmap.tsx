@@ -1,7 +1,22 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Circle, Clock } from "lucide-react";
+import { CheckCircle, Circle, Clock, Copy } from "lucide-react";
+import { useState } from "react";
 
 const Roadmap = () => {
+  const [copied, setCopied] = useState(false);
+  
+  const contractAddress = "0x24f7a9147b69a824e56937b6265a7a74d3675f1e4965bb3a0bb2e63fd31ada41::ivnk::IVNK";
+  
+  const copyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(contractAddress);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.log('Failed to copy text: ', err);
+    }
+  };
+
   const roadmapItems = [
     {
       phase: "Phase 1",
@@ -115,7 +130,6 @@ const Roadmap = () => {
           ))}
         </div>
 
-        {/* Roadmap image positioned bottom left - optimized loading */}
         <div className="absolute bottom-10 left-10 animate-float">
           <img 
             src="/lovable-uploads/da3cb322-e342-4d96-90ae-498ca8109e9a.png" 
@@ -128,7 +142,7 @@ const Roadmap = () => {
           />
         </div>
 
-        <div className="text-center mt-16">
+        <div className="text-center mt-16 space-y-8">
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 max-w-4xl mx-auto">
             <h3 className="text-3xl font-bangers text-meme-gold mb-6">
               🎯 OUR GOAL: SUI DOMINANCE! 🎯
@@ -139,6 +153,29 @@ const Roadmap = () => {
             <p className="text-lg text-white/80 font-comic">
               Get in before it's too late! Together we'll make $IVNK 
               the king... uh, queen of SUI! 👑💎
+            </p>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bangers text-meme-gold mb-6">
+              📋 SMART CONTRACT ADDRESS 📋
+            </h3>
+            <div className="bg-black/30 rounded-xl p-4 border border-meme-gold/50">
+              <div className="flex items-center justify-between gap-4">
+                <code className="text-white font-mono text-sm break-all flex-1">
+                  {contractAddress}
+                </code>
+                <button
+                  onClick={copyToClipboard}
+                  className="bg-meme-gold hover:bg-meme-gold-dark text-black px-4 py-2 rounded-lg font-bold transition-all duration-300 flex items-center gap-2 shrink-0"
+                >
+                  <Copy size={16} />
+                  {copied ? 'Copied!' : 'Copy'}
+                </button>
+              </div>
+            </div>
+            <p className="text-sm text-white/60 font-comic mt-4">
+              Official IVNK token contract on SUI blockchain
             </p>
           </div>
         </div>

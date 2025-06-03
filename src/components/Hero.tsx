@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
 
@@ -14,12 +13,13 @@ const Hero = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           title="IVNK Token Background Video"
+          loading="lazy"
         />
       </div>
 
       {/* Animated background elements */}
       <div className="absolute inset-0 z-10">
-        {/* Helicopter positioned at top left - made smaller */}
+        {/* Helicopter positioned at top left - optimized loading */}
         <div className="absolute top-16 left-5 animate-float">
           <img 
             src="/lovable-uploads/b48334cf-57ce-4e15-952c-8cbba73fd4b6.png" 
@@ -27,10 +27,12 @@ const Hero = () => {
             className="w-[30rem] md:w-[42rem] h-auto drop-shadow-2xl transform scale-x-[-1]"
             loading="eager"
             width="672"
-            height="auto"
+            height="400"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
-        {/* Character meme positioned on the right - made much bigger */}
+        {/* Character meme positioned on the right - optimized loading */}
         <div className="absolute bottom-10 right-10 md:right-20 animate-bounce-custom">
           <img 
             src="/lovable-uploads/c9eb10f6-0f1b-482e-8d6a-56980b125e9c.png" 
@@ -38,7 +40,9 @@ const Hero = () => {
             className="w-72 md:w-96 h-auto drop-shadow-2xl"
             loading="eager"
             width="384"
-            height="auto"
+            height="400"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
       </div>

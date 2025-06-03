@@ -115,12 +115,16 @@ const Roadmap = () => {
           ))}
         </div>
 
-        {/* Roadmap image positioned bottom left */}
+        {/* Roadmap image positioned bottom left - optimized loading */}
         <div className="absolute bottom-10 left-10 animate-float">
           <img 
             src="/lovable-uploads/da3cb322-e342-4d96-90ae-498ca8109e9a.png" 
             alt="IVNK Roadmap" 
             className="w-64 md:w-80 h-auto drop-shadow-2xl"
+            loading="lazy"
+            width="320"
+            height="240"
+            decoding="async"
           />
         </div>
 

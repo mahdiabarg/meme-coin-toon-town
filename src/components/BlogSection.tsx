@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -49,7 +48,7 @@ const BlogSection = () => {
                       <Skeleton className="w-full h-48 bg-white/20" />
                     )}
                     
-                    {/* Actual Image */}
+                    {/* Actual Image - optimized loading */}
                     {!failedImages.has(post.id) && (
                       <img 
                         src={post.image} 
@@ -57,6 +56,8 @@ const BlogSection = () => {
                         loading={index < 2 ? "eager" : "lazy"}
                         width="400"
                         height="192"
+                        decoding="async"
+                        fetchPriority={index < 2 ? "high" : "auto"}
                         className={`w-full h-48 object-cover group-hover:scale-110 transition-all duration-300 ${
                           loadedImages.has(post.id) ? 'opacity-100' : 'opacity-0 absolute inset-0'
                         }`}

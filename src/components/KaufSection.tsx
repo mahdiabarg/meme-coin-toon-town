@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const KaufSection = () => {
@@ -21,7 +20,8 @@ const KaufSection = () => {
             className="w-72 md:w-96 h-auto drop-shadow-2xl animate-slide-in-from-right"
             loading="lazy"
             width="384"
-            height="auto"
+            height="300"
+            decoding="async"
           />
         </div>
 

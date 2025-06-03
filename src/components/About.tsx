@@ -1,6 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
+
 const About = () => {
-  return <section id="about" className="py-20 bg-gradient-to-br from-black via-purple-900 to-purple-600 relative overflow-hidden">
+  return (
+    <section id="about" className="py-20 bg-gradient-to-br from-black via-purple-900 to-purple-600 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-32 h-32 bg-meme-gold rounded-full blur-xl"></div>
@@ -99,7 +101,7 @@ const About = () => {
 
           <div className="relative flex justify-center">
             <div className="relative">
-              {/* Airplane positioned in the center */}
+              {/* Airplane positioned in the center - optimized loading */}
               <div className="mb-8 flex justify-center">
                 <img 
                   src="/lovable-uploads/04e56ecb-5583-42ad-b2e8-799e51915088.png" 
@@ -107,11 +109,12 @@ const About = () => {
                   className="w-80 md:w-96 h-auto drop-shadow-2xl animate-float" 
                   loading="lazy"
                   width="384"
-                  height="auto"
+                  height="300"
+                  decoding="async"
                 />
               </div>
               
-              {/* Tutorial4 image positioned below the airplane with rounded corners */}
+              {/* Tutorial4 image positioned below the airplane - optimized loading */}
               <div className="flex justify-center">
                 <img 
                   src="/lovable-uploads/15f00140-cbb7-44d6-8e42-7106e7a9a739.png" 
@@ -119,7 +122,8 @@ const About = () => {
                   className="w-64 md:w-80 h-auto drop-shadow-xl rounded-3xl" 
                   loading="lazy"
                   width="320"
-                  height="auto"
+                  height="240"
+                  decoding="async"
                 />
               </div>
               
@@ -138,6 +142,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default About;
